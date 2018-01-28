@@ -28,11 +28,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="player.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="SDL2.dll" />
     <None Include="SDL2_image.dll" />
     <None Include="zlib1.dll" />
