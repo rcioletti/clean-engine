@@ -20,15 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SDL2.dll" />
-    <None Include="SDL2_image.dll" />
-    <None Include="zlib1.dll" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="TextureManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9A02649A-9470-4C34-9844-3DC6AF25CD1A}</ProjectGuid>
