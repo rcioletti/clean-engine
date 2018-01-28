@@ -29,6 +29,7 @@
     <ProjectGuid>{9A02649A-9470-4C34-9844-3DC6AF25CD1A}</ProjectGuid>
     <RootNamespace>xpertengine</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Clean-Engine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

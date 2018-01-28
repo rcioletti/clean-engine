@@ -1,7 +1,7 @@
-﻿  Game.cpp
-  Generating Code...
-  Compiling...
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (xpert-engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.cpp
   Generating Code...
-  xpert-engine.vcxproj -> C:\Users\DEV\Documents\xpert-engine\x64\Debug\xpert-engine.exe
-  xpert-engine.vcxproj -> C:\Users\DEV\Documents\xpert-engine\x64\Debug\xpert-engine.pdb (Partial PDB)
+  Skipping... (no relevant changes detected)
+  Game.cpp
+  xpert-engine.vcxproj -> C:\Users\DEV\Documents\xpert-engine\x64\Debug\Clean-Engine.exe
+  xpert-engine.vcxproj -> C:\Users\DEV\Documents\xpert-engine\x64\Debug\Clean-Engine.pdb (Partial PDB)
