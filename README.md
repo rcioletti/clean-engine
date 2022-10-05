@@ -25,6 +25,12 @@ Clean Engine is a Game Engine to develop 3D Games fast and easy. It is written i
   * Extract them in a System folder (Mine as example: C:/Dev/SDL2)
   * Paste the SDL2.dll and SDL2-Image.dll on yout main folder and where your engine.exe is located
   * Go to Project->Properties->C/C++->General and on Additional Include Directories put your SDL2 adn SDL2-image include folder
+  
+  ![Additional Include Directories](https://i.imgur.com/riRi7kA.png)
   * Go to Project->Properties->Linker->General and on Additional Library Directories put your SDL2 adn SDL2-image lib folder
+  
+  ![Additional Library Directories](https://i.imgur.com/PMiwVbq.png)
   * Go to Project->Properties->Linker->Input and on Additional Dependencies include SDL2.lib, SDL2main.lib and SDL2_image.lib
+
+  ![Additional Library Directories](https://i.imgur.com/9srJSoU.png)
   * You should be able to run the Engine
