@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{02229185-17f9-4003-aac2-38e5b0e17d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\assets">
+      <UniqueIdentifier>{ef33a5a8-c629-4619-a27a-afe0f5b9443e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\player.png">
+      <Filter>src\assets</Filter>
+    </Image>
+    <Image Include="assets\player2.png">
+      <Filter>src\assets</Filter>
+    </Image>
+    <Image Include="assets\dirt.png">
+      <Filter>src\assets</Filter>
+    </Image>
+    <Image Include="assets\grass.png">
+      <Filter>src\assets</Filter>
+    </Image>
+    <Image Include="assets\water.png">
+      <Filter>src\assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

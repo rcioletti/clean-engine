@@ -16,6 +16,8 @@ public:
 	void render();
 	void clean();
 
+	static SDL_Renderer* renderer;
+
 	void handleEvents();
 	bool running() { return isRunning; };
 
@@ -23,6 +25,5 @@ private:
 	int cnt = 0;
 	bool isRunning;
 	SDL_Window * window;
-	SDL_Renderer * renderer;
 };
 
