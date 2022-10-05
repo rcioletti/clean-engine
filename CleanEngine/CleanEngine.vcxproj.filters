@@ -2,33 +2,36 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Game.cpp">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClCompile>
     <ClCompile Include="GameObject.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="MapManager.cpp">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>src\engine</Filter>
     </ClCompile>
     <ClCompile Include="TextureManager.cpp">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClInclude>
     <ClInclude Include="GameObject.h">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClInclude>
     <ClInclude Include="MapManager.h">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
     </ClInclude>
     <ClInclude Include="TextureManager.h">
-      <Filter>src</Filter>
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>src\engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +40,9 @@
     </Filter>
     <Filter Include="src\assets">
       <UniqueIdentifier>{ef33a5a8-c629-4619-a27a-afe0f5b9443e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{f9cc69c3-ae10-4777-b920-c0b32f4c60a3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

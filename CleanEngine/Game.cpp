@@ -9,7 +9,7 @@ MapManager* map;
 
 SDL_Renderer* Game::renderer = nullptr;
 
-void Game::init(const char * title, int xpos, int ypos, int width, int height, bool fullscreen) 
+void Game::init(const char * title, int width, int height, bool fullscreen) 
 {
 	int flags = 0;
 
@@ -20,7 +20,7 @@ void Game::init(const char * title, int xpos, int ypos, int width, int height, b
 	if (SDL_Init(SDL_INIT_EVERYTHING) == 0) {
 		std::cout << "SubSystem Initialized!..." << std::endl;
 
-		window = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
+		window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, flags);
 		if (window) 
 		{
 			std::cout << "Window created!..." << std::endl;
@@ -40,7 +40,7 @@ void Game::init(const char * title, int xpos, int ypos, int width, int height, b
 	}
 
 	player = new GameObject("assets/player.png", 0, 0);
-	player2 = new GameObject("assets/player2.png", 50, 50);
+	player2 = new GameObject("assets/player2.png", 150, 150);
 	map = new MapManager();
 }
 
