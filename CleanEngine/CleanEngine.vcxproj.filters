@@ -48,6 +48,9 @@
     <ClInclude Include="Vector2D.h">
       <Filter>src\ECS</Filter>
     </ClInclude>
+    <ClInclude Include="KeyboardController.h">
+      <Filter>src\ECS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
