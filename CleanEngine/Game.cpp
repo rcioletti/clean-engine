@@ -1,18 +1,14 @@
 #include "Game.h"
 #include "TextureManager.h"
-#include "GameObject.h"
 #include "MapManager.h"
-
-#include "ECS.h"
 #include "Components.h"
 
-GameObject * player;
 MapManager* map;
+Manager manager;
 
 SDL_Renderer* Game::renderer = nullptr;
 
-Manager manager;
-auto& newPlayer(manager.addEntity());
+auto& player(manager.addEntity());
 
 void Game::init(const char * title, int width, int height, bool fullscreen) 
 {
@@ -43,11 +39,10 @@ void Game::init(const char * title, int width, int height, bool fullscreen)
 	else {
 		isRunning = false;
 	}
-
-	player = new GameObject("assets/player.png", 0, 0);
 	map = new MapManager();
 
-	newPlayer.addComponent<PositionComponent>();
+	player.addComponent<PositionComponent>(0,0);
+	player.addComponent<SpriteComponent>("assets/player.png");
 }
 
 void Game::handleEvents() 
@@ -66,17 +61,15 @@ void Game::handleEvents()
 
 void Game::update() 
 {
-	player->Update();
+	manager.refresh();
 	manager.update();
-	std::cout << newPlayer.getComponent<PositionComponent>().x() << "," <<
-		newPlayer.getComponent<PositionComponent>().y() << std::endl;
 }
 
 void Game::render()
 {
 	SDL_RenderClear(renderer);
 	map->DrawMap();
-	player->Render();
+	manager.draw();
 	SDL_RenderPresent(renderer);
 }
 
@@ -86,7 +79,6 @@ void Game::clean()
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
 	std::cout << "Game Cleaned!..." << std::endl;
-
 }
 
 Game::Game()

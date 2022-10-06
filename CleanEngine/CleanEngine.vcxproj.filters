@@ -31,10 +31,16 @@
       <Filter>src\engine</Filter>
     </ClInclude>
     <ClInclude Include="ECS.h">
-      <Filter>src\engine</Filter>
+      <Filter>src\ECS</Filter>
     </ClInclude>
     <ClInclude Include="Components.h">
-      <Filter>src\engine</Filter>
+      <Filter>src\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>src\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>src\ECS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +52,9 @@
     </Filter>
     <Filter Include="src\engine">
       <UniqueIdentifier>{f9cc69c3-ae10-4777-b920-c0b32f4c60a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ECS">
+      <UniqueIdentifier>{9f232c26-94b4-4881-b3ba-fccad2f1d45c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
