@@ -2,6 +2,7 @@
 #include "TextureManager.h"
 #include "MapManager.h"
 #include "Components.h"
+#include "Vector2D.h"
 
 MapManager* map;
 Manager manager;
@@ -41,7 +42,7 @@ void Game::init(const char * title, int width, int height, bool fullscreen)
 	}
 	map = new MapManager();
 
-	player.addComponent<PositionComponent>(0,0);
+	player.addComponent<TransformComponent>(0,0);
 	player.addComponent<SpriteComponent>("assets/player.png");
 }
 
@@ -63,6 +64,8 @@ void Game::update()
 {
 	manager.refresh();
 	manager.update();
+
+	player.getComponent<TransformComponent>().position.Add(Vector2D(1,0));
 }
 
 void Game::render()
