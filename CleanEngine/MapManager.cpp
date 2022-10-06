@@ -39,6 +39,13 @@ MapManager::MapManager()
 	dest.x = dest.y = 0;
 }
 
+MapManager::~MapManager()
+{
+	SDL_DestroyTexture(grass);
+	SDL_DestroyTexture(water);
+	SDL_DestroyTexture(dirt);
+}
+
 void MapManager::LoadMap(int arr[20][25])
 {
 	for (int row = 0; row < 20; row++)
