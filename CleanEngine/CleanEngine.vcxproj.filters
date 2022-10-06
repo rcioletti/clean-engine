@@ -33,6 +33,9 @@
     <ClInclude Include="ECS.h">
       <Filter>src\engine</Filter>
     </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

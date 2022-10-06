@@ -3,11 +3,16 @@
 #include "GameObject.h"
 #include "MapManager.h"
 
+#include "ECS.h"
+#include "Components.h"
+
 GameObject * player;
-GameObject * player2;
 MapManager* map;
 
 SDL_Renderer* Game::renderer = nullptr;
+
+Manager manager;
+auto& newPlayer(manager.addEntity());
 
 void Game::init(const char * title, int width, int height, bool fullscreen) 
 {
@@ -40,8 +45,9 @@ void Game::init(const char * title, int width, int height, bool fullscreen)
 	}
 
 	player = new GameObject("assets/player.png", 0, 0);
-	player2 = new GameObject("assets/player2.png", 150, 150);
 	map = new MapManager();
+
+	newPlayer.addComponent<PositionComponent>();
 }
 
 void Game::handleEvents() 
@@ -61,7 +67,9 @@ void Game::handleEvents()
 void Game::update() 
 {
 	player->Update();
-	player2->Update();
+	manager.update();
+	std::cout << newPlayer.getComponent<PositionComponent>().x() << "," <<
+		newPlayer.getComponent<PositionComponent>().y() << std::endl;
 }
 
 void Game::render()
@@ -69,7 +77,6 @@ void Game::render()
 	SDL_RenderClear(renderer);
 	map->DrawMap();
 	player->Render();
-	player2->Render();
 	SDL_RenderPresent(renderer);
 }
 
