@@ -1,4 +1,4 @@
-﻿21:40:36.236     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+﻿09:33:43.531     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
                    Trying to import C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
                    Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Dev\clean-engine\CleanEngine\obj\" (previous value: "obj\") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props (56,5)
                    Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
@@ -758,7 +758,7 @@
                    Overriding target "ComputeMetaGenInputs" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" with target "ComputeMetaGenInputs" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
                    Overriding target "GetNativeManifest" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets".
                    Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets".
-Build started 10/6/2022 9:40:36 PM.
+Build started 10/7/2022 9:33:43 AM.
 Environment at start of build:
                    ADSK_3DSMAX_x64_2016 = D:\Autodesk\3ds Max 2016\
                    ADSK_3DSMAX_x64_2021 = D:\Autodesk\3ds Max 2021\
@@ -820,8 +820,8 @@ Environment at start of build:
                    VSSKUEDITION = Community
                    windir = C:\WINDOWS
 
-Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" on node 2 (Build target(s)).
-21:40:36.336     1>Initial Properties:
+Logging verbosity is set to: Diagnostic.09:33:43.642     1>Project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" on node 2 (Build target(s)).
+09:33:43.642     1>Initial Properties:
                    _ApplicableDebuggers = Desktop
                    _ApplicationTypeAndRevisionFound = true
                    _BuildActionType = Build
@@ -2203,8 +2203,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    VsInstallRoot = C:\Program Files\Microsoft Visual Studio\2022\Community
                    VSLANG = 1033
                    VSSKUEDITION = Community
-                   VSTEL_CurrentSolutionBuildID = 1712243981
-                   VSTEL_SolutionSessionID = {18B83695-7DD7-42DF-B924-BCC5C158B06D}
+                   VSTEL_CurrentSolutionBuildID = 85289676
+                   VSTEL_SolutionSessionID = {34CE3865-B72C-4325-8AC7-033975EBB119}
                    VSVersion = $(VisualStudioVersion)
                    WebBrowserDebuggerDebuggerType = Auto
                    WebReference_EnableLegacyEventingModel = false
@@ -2263,9 +2263,9 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    XamlTemporaryAssemblyName = CleanEngine
                    YieldDuringToolExecution = true
 
-21:40:36.336     1>Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+09:33:43.642     1>Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
                    Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
-21:40:36.337     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
+09:33:43.644     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
                    Set Property: _InvalidConfigurationMessageText=The BaseOutputPath/OutputPath property is not set for project 'CleanEngine.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='x64'.
                    Set Property: _InvalidConfigurationMessageText=The BaseOutputPath/OutputPath property is not set for project 'CleanEngine.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='x64'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
@@ -2286,21 +2286,21 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Task "Error" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'C:\Dev\clean-engine\CleanEngine\obj\' != '' And 'C:\Dev\clean-engine\CleanEngine\obj\' != 'C:\Dev\clean-engine\CleanEngine\obj\' ).
                    Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Dev\clean-engine\CleanEngine\obj\' ).
-21:40:36.345     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "CleanEngine.vcxproj".: (TargetId:2)
+09:33:43.652     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "CleanEngine.vcxproj".: (TargetId:2)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-21:40:36.345     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:43.652     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
                    Using "SetEnv" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
                    Task "SetEnv" (TaskId:4)
                      Task Parameter:Prefix=False (TaskId:4)
-                     Task Parameter:Value={18B83695-7DD7-42DF-B924-BCC5C158B06D} (TaskId:4)
+                     Task Parameter:Value={34CE3865-B72C-4325-8AC7-033975EBB119} (TaskId:4)
                      Task Parameter:Name=VSTEL_SolutionSessionID (TaskId:4)
-                     VSTEL_SolutionSessionID={18B83695-7DD7-42DF-B924-BCC5C158B06D} (TaskId:4)
+                     VSTEL_SolutionSessionID={34CE3865-B72C-4325-8AC7-033975EBB119} (TaskId:4)
                    Done executing task "SetEnv". (TaskId:4)
                    Task "SetEnv" (TaskId:5)
                      Task Parameter:Prefix=False (TaskId:5)
-                     Task Parameter:Value=1712243981 (TaskId:5)
+                     Task Parameter:Value=85289676 (TaskId:5)
                      Task Parameter:Name=VSTEL_CurrentSolutionBuildID (TaskId:5)
-                     VSTEL_CurrentSolutionBuildID=1712243981 (TaskId:5)
+                     VSTEL_CurrentSolutionBuildID=85289676 (TaskId:5)
                    Done executing task "SetEnv". (TaskId:5)
                    Task "SetEnv" (TaskId:6)
                      Task Parameter:Prefix=False (TaskId:6)
@@ -2309,8 +2309,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      VSTEL_ProjectID={9A02649A-9470-4C34-9844-3DC6AF25CD1A} (TaskId:6)
                      Output Property: VSTEL_ProjectID={9A02649A-9470-4C34-9844-3DC6AF25CD1A} (TaskId:6)
                    Done executing task "SetEnv". (TaskId:6)
-21:40:36.350     1>Done building target "SetTelemetryEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:3)
-21:40:36.350     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:43.657     1>Done building target "SetTelemetryEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:3)
+09:33:43.657     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
                    Set Property: BuildType=Build
                    Set Property: _BuildActionType=Build
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
@@ -2318,18 +2318,18 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                        CustomBuildStep=
                            Clean-Engine
                                    Message=Performing Custom Build Step
-21:40:36.350     1>Done building target "_PrepareForBuild" in project "CleanEngine.vcxproj".: (TargetId:4)
-21:40:36.351     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.658     1>Done building target "_PrepareForBuild" in project "CleanEngine.vcxproj".: (TargetId:4)
+09:33:43.658     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('$(WarnAboutIndividualManagedFiles)' == 'true') was evaluated as ('' == 'true').
                    Set Property: TargetFrameworkMoniker=
                    Set Property: _FindDependencies=false
                    Set Property: AdditionalExplicitAssemblyReferences=
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-21:40:36.351     1>Done building target "_PrepareForReferenceResolution" in project "CleanEngine.vcxproj".: (TargetId:5)
+09:33:43.658     1>Done building target "_PrepareForReferenceResolution" in project "CleanEngine.vcxproj".: (TargetId:5)
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Collision.cpp;Game.cpp;GameObject.cpp;...'!='' and 'false'=='true' and '' != 'false').
-21:40:36.351     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
-21:40:36.351     1>Done building target "BeforeResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:6)
-21:40:36.351     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.658     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.658     1>Done building target "BeforeResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:6)
+09:33:43.658     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
                    Set Property: ShouldUnsetParentConfigurationAndPlatform=true
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:7)
@@ -2344,14 +2344,14 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:7)
                      Task Parameter:CurrentProjectConfiguration=Debug (TaskId:7)
                    Done executing task "AssignProjectConfiguration". (TaskId:7)
-21:40:36.352     1>Done building target "AssignProjectConfiguration" in project "CleanEngine.vcxproj".: (TargetId:7)
+09:33:43.659     1>Done building target "AssignProjectConfiguration" in project "CleanEngine.vcxproj".: (TargetId:7)
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
-21:40:36.352     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareProjectReferences" depends on it):
+09:33:43.659     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-21:40:36.352     1>Done building target "_SplitProjectReferencesByFileExistence" in project "CleanEngine.vcxproj".: (TargetId:8)
-21:40:36.352     1>Target "_AddOutputPathToGlobalPropertiesToRemove: (TargetId:9)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
-21:40:36.352     1>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "CleanEngine.vcxproj".: (TargetId:9)
-21:40:36.352     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:10)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareProjectReferences" depends on it):
+09:33:43.659     1>Done building target "_SplitProjectReferencesByFileExistence" in project "CleanEngine.vcxproj".: (TargetId:8)
+09:33:43.659     1>Target "_AddOutputPathToGlobalPropertiesToRemove: (TargetId:9)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
+09:33:43.659     1>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "CleanEngine.vcxproj".: (TargetId:9)
+09:33:43.659     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:10)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareProjectReferences" depends on it):
                    Set Property: ReferringTargetFrameworkForProjectReferences=
                    Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "MSBuild" (TaskId:8)
@@ -2366,31 +2366,31 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
                                                                            And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') was evaluated as ('' != '' and '' != ''
                                                                            And 'true' != 'true' and '' != 'true').
-21:40:36.396     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "CleanEngine.vcxproj".: (TargetId:10)
+09:33:43.695     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "CleanEngine.vcxproj".: (TargetId:10)
                    Target "_GetProjectReferencePlatformProperties" skipped, due to false condition; ('$(EnableDynamicPlatformResolution)' == 'true'
                                         and '$(BuildingInsideVisualStudio)' != 'true'
                                         and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true'
                                         and 'true' != 'true'
                                         and '' != '').
-21:40:36.396     1>Target "PrepareProjectReferences: (TargetId:11)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveProjectReferences" depends on it):
-21:40:36.396     1>Done building target "PrepareProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:11)
+09:33:43.695     1>Target "PrepareProjectReferences: (TargetId:11)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveProjectReferences" depends on it):
+09:33:43.695     1>Done building target "PrepareProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:11)
                    Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
-21:40:36.396     1>Target "ResolveProjectReferences: (TargetId:12)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.695     1>Target "ResolveProjectReferences: (TargetId:12)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '17.0' != '10.0' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
-21:40:36.396     1>Done building target "ResolveProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:12)
+09:33:43.695     1>Done building target "ResolveProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:12)
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
                    Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ResolveProjectReferences" skipped. Previously built successfully.
                    Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
-21:40:36.396     1>Target "GetFrameworkPaths: (TargetId:13)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
-21:40:36.396     1>Done building target "GetFrameworkPaths" in project "CleanEngine.vcxproj".: (TargetId:13)
+09:33:43.695     1>Target "GetFrameworkPaths: (TargetId:13)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+09:33:43.695     1>Done building target "GetFrameworkPaths" in project "CleanEngine.vcxproj".: (TargetId:13)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
-21:40:36.396     1>Target "GetReferenceAssemblyPaths: (TargetId:14)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+09:33:43.695     1>Target "GetReferenceAssemblyPaths: (TargetId:14)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetFrameworkDirectory=
                    Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('' == '' or '' == '')).
                    Set Property: TargetFrameworkDirectory=;;
@@ -2398,8 +2398,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
                    Set Property: AssemblySearchPaths={CandidateAssemblyFiles};C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\atlmfc\lib\x64;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64;;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,};;{Registry:Software\Microsoft\,,AssemblyFoldersEx};;{GAC};{RawFileName};C:\Dev\clean-engine\x64\Debug\
                    Set Property: TargetFrameworkProfile=
-21:40:36.397     1>Done building target "GetReferenceAssemblyPaths" in project "CleanEngine.vcxproj".: (TargetId:14)
-21:40:36.397     1>Target "AddExternalIncludDirectoriesToPaths: (TargetId:15)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SetBuildDefaultEnvironmentVariables" depends on it):
+09:33:43.696     1>Done building target "GetReferenceAssemblyPaths" in project "CleanEngine.vcxproj".: (TargetId:14)
+09:33:43.696     1>Target "AddExternalIncludDirectoriesToPaths: (TargetId:15)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SetBuildDefaultEnvironmentVariables" depends on it):
                    Added Item(s): 
                        _ExternalIncludePathToInclude=
                            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include
@@ -2444,8 +2444,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
                            C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt
                            C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\Include\um
-21:40:36.397     1>Done building target "AddExternalIncludDirectoriesToPaths" in project "CleanEngine.vcxproj".: (TargetId:15)
-21:40:36.397     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:16)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
+09:33:43.696     1>Done building target "AddExternalIncludDirectoriesToPaths" in project "CleanEngine.vcxproj".: (TargetId:15)
+09:33:43.696     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:16)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Current.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "SetEnv" (TaskId:9)
                      Task Parameter:Prefix=False (TaskId:9)
                      Task Parameter:Value=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Users\Rod\AppData\Local\Programs\Python\Python310;C:\Users\Rod\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Program Files\Go\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Rod\AppData\Local\Microsoft\WindowsApps;C:\Users\Rod\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rod\.dotnet\tools;C:\Users\Rod\AppData\Roaming\npm;C:\Users\Rod\go\bin;C:\Users\Rod\AppData\Local\gitkraken\bin;C:\Users\Rod\.dotnet\tools; (TaskId:9)
@@ -2481,10 +2481,10 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      EXTERNAL_INCLUDE=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\atlmfc\include;;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\Include\um; (TaskId:13)
                      Output Property: EXTERNAL_INCLUDE=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include%3b%3bC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\atlmfc\include%3b%3bC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\ucrt%3b%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\winrt%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.19041.0\cppwinrt%3bC:\Program Files %28x86%29\Windows Kits\NETFXSDK\4.8.1\Include\um%3b (TaskId:13)
                    Done executing task "SetEnv". (TaskId:13)
-21:40:36.406     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:16)
+09:33:43.708     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:16)
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-21:40:36.406     1>Target "GetResolvedWinMD: (TargetId:17)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
+09:33:43.708     1>Target "GetResolvedWinMD: (TargetId:17)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
                    Added Item(s): 
                        Link=
                            tmp
@@ -2573,8 +2573,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-21:40:36.406     1>Done building target "GetResolvedWinMD" in project "CleanEngine.vcxproj".: (TargetId:17)
-21:40:36.406     1>Target "_CheckWindowsSDKInstalled: (TargetId:18)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
+09:33:43.708     1>Done building target "GetResolvedWinMD" in project "CleanEngine.vcxproj".: (TargetId:17)
+09:33:43.708     1>Target "_CheckWindowsSDKInstalled: (TargetId:18)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
                    Set Property: WindowsSDKInstalled=false
                    Set Property: WindowsSDK_UAP_Support=false
                    Set Property: WindowsSDK_Desktop_Support=false
@@ -2583,11 +2583,11 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Set Property: WindowsSDK_Desktop_Support=true
                    Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKInstalled)' != 'true') was evaluated as ('true' != 'true').
                    Task "VCMessage" skipped, due to false condition; ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true) was evaluated as ('false' != 'true' and 'true' != true).
-21:40:36.406     1>Done building target "_CheckWindowsSDKInstalled" in project "CleanEngine.vcxproj".: (TargetId:18)
+09:33:43.708     1>Done building target "_CheckWindowsSDKInstalled" in project "CleanEngine.vcxproj".: (TargetId:18)
                    Target "GetFrameworkPaths" skipped. Previously built successfully.
                    Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
                    Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
-21:40:36.407     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:19)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
+09:33:43.708     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:19)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForBuild" depends on it):
                    Task "SetEnv" (TaskId:14)
                      Task Parameter:Prefix=False (TaskId:14)
                      Task Parameter:Value=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\Include\um; (TaskId:14)
@@ -2595,8 +2595,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      CAExcludePath=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\Include\um; (TaskId:14)
                    Done executing task "SetEnv". (TaskId:14)
                    Task "SetEnv" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(VCCodeAnalysisUX)'=='true') was evaluated as ('false'=='true' and 'true'=='true').
-21:40:36.407     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:19)
-21:40:36.407     1>Target "PrepareForBuild: (TargetId:20)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+09:33:43.708     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "CleanEngine.vcxproj".: (TargetId:19)
+09:33:43.708     1>Target "PrepareForBuild: (TargetId:20)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Set Property: TargetDir=C:\Dev\clean-engine\x64\Debug\
                    Set Property: LocalDebuggerCommand=C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
                    Set Property: BuildProjectReferences=false
@@ -2732,7 +2732,7 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:Arguments=xpert-engine.vcxproj;x64\Debug\ (TaskId:17)
                      Task Parameter:Code=MSB8028 (TaskId:17)
                      Task Parameter:Type=Warning (TaskId:17)
-21:40:36.413     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (xpert-engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+09:33:43.714     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (xpert-engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
                    Done executing task "VCMessage". (TaskId:17)
                    Set Property: _Tmp=C:\Users\Rod\AppData\Local\Temp
                    Set Property: _Temp=C:\Users\Rod\AppData\Local\Temp
@@ -2746,19 +2746,19 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                              C:\Dev\clean-engine\x64\Debug\
                              x64\Debug\Clean-Engine.tlog\ (TaskId:18)
                    Done executing task "MakeDir". (TaskId:18)
-21:40:36.414     1>Done building target "PrepareForBuild" in project "CleanEngine.vcxproj".: (TargetId:20)
+09:33:43.715     1>Done building target "PrepareForBuild" in project "CleanEngine.vcxproj".: (TargetId:20)
                    Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
                    Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Collision.cpp;Game.cpp;GameObject.cpp;...'!='' and 'false'=='true' and '' != 'false').
                    Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
-21:40:36.414     1>Target "ResolveSDKReferences: (TargetId:21)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+09:33:43.715     1>Target "ResolveSDKReferences: (TargetId:21)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
-21:40:36.414     1>Done building target "ResolveSDKReferences" in project "CleanEngine.vcxproj".: (TargetId:21)
+09:33:43.715     1>Done building target "ResolveSDKReferences" in project "CleanEngine.vcxproj".: (TargetId:21)
                    Target "ResolveSDKReferences" skipped. Previously built successfully.
-21:40:36.414     1>Target "ExpandSDKReferences: (TargetId:22)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+09:33:43.715     1>Target "ExpandSDKReferences: (TargetId:22)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
                    Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
-21:40:36.414     1>Done building target "ExpandSDKReferences" in project "CleanEngine.vcxproj".: (TargetId:22)
+09:33:43.715     1>Done building target "ExpandSDKReferences" in project "CleanEngine.vcxproj".: (TargetId:22)
                    Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
-21:40:36.414     1>Target "ResolveAssemblyReferences: (TargetId:23)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.715     1>Target "ResolveAssemblyReferences: (TargetId:23)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
                    Added Item(s): _ReferenceInstalledAssemblyDirectory=C:\Program Files (x86)\Windows Kits\10\References
                    Set Property: ResolveAssemblyReferencesStateFile=x64\Debug\CleanEngine.vcxproj.AssemblyReference.cache
                    Set Property: ResolveAssemblyReferencesSilent=false
@@ -2769,18 +2769,18 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Set Property: ResolveAssemblyReferenceOutputUnresolvedAssemblyConflicts=false
                    Set Property: FindDependenciesOfExternallyResolvedReferences=false
                    Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
-21:40:36.414     1>Done building target "ResolveAssemblyReferences" in project "CleanEngine.vcxproj".: (TargetId:23)
+09:33:43.716     1>Done building target "ResolveAssemblyReferences" in project "CleanEngine.vcxproj".: (TargetId:23)
                    Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
                    Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('x64\Debug\Clean-Engine.exe.config')).
                    Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
-21:40:36.415     1>Target "AfterResolveReferences: (TargetId:24)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
-21:40:36.415     1>Done building target "AfterResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:24)
+09:33:43.716     1>Target "AfterResolveReferences: (TargetId:24)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ResolveReferences" depends on it):
+09:33:43.716     1>Done building target "AfterResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:24)
                    Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
-21:40:36.415     1>Target "ResolveReferences: (TargetId:25)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
-21:40:36.415     1>Done building target "ResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:25)
+09:33:43.716     1>Target "ResolveReferences: (TargetId:25)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:43.716     1>Done building target "ResolveReferences" in project "CleanEngine.vcxproj".: (TargetId:25)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
-21:40:36.415     1>Target "InitializeBuildStatus: (TargetId:26)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:43.716     1>Target "InitializeBuildStatus: (TargetId:26)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
                    Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "ReadLinesFromFile" (TaskId:19)
                      Task Parameter:File=x64\Debug\Clean-Engine.tlog\Clean-Engine.lastbuildstate (TaskId:19)
@@ -2808,33 +2808,33 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:Files=x64\Debug\Clean-Engine.tlog\unsuccessfulbuild (TaskId:21)
                      Creating "x64\Debug\Clean-Engine.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:21)
                    Done executing task "Touch". (TaskId:21)
-21:40:36.419     1>Done building target "InitializeBuildStatus" in project "CleanEngine.vcxproj".: (TargetId:26)
+09:33:43.719     1>Done building target "InitializeBuildStatus" in project "CleanEngine.vcxproj".: (TargetId:26)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-21:40:36.419     1>Target "BuildGenerateSourcesTraverse: (TargetId:27)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildGenerateSources" depends on it):
+09:33:43.719     1>Target "BuildGenerateSourcesTraverse: (TargetId:27)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildGenerateSources" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-21:40:36.419     1>Done building target "BuildGenerateSourcesTraverse" in project "CleanEngine.vcxproj".: (TargetId:27)
+09:33:43.719     1>Done building target "BuildGenerateSourcesTraverse" in project "CleanEngine.vcxproj".: (TargetId:27)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:36.419     1>Target "BeforeBuildGenerateSources: (TargetId:28)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-21:40:36.419     1>Done building target "BeforeBuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:28)
-21:40:36.419     1>Target "PreBuildEvent: (TargetId:29)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.719     1>Target "BeforeBuildGenerateSources: (TargetId:28)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.719     1>Done building target "BeforeBuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:28)
+09:33:43.719     1>Target "PreBuildEvent: (TargetId:29)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
-21:40:36.419     1>Done building target "PreBuildEvent" in project "CleanEngine.vcxproj".: (TargetId:29)
+09:33:43.719     1>Done building target "PreBuildEvent" in project "CleanEngine.vcxproj".: (TargetId:29)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "InitializeBuildStatus" skipped. Previously built successfully.
                    Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
                    Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
-21:40:36.419     1>Target "_SelectedFiles: (TargetId:30)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SelectCustomBuild" depends on it):
-21:40:36.419     1>Done building target "_SelectedFiles" in project "CleanEngine.vcxproj".: (TargetId:30)
-21:40:36.419     1>Target "SelectCustomBuild: (TargetId:31)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CustomBuild" depends on it):
-21:40:36.419     1>Done building target "SelectCustomBuild" in project "CleanEngine.vcxproj".: (TargetId:31)
-21:40:36.419     1>Target "ComputeCustomBuildOutput: (TargetId:32)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CustomBuild" depends on it):
+09:33:43.719     1>Target "_SelectedFiles: (TargetId:30)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "SelectCustomBuild" depends on it):
+09:33:43.719     1>Done building target "_SelectedFiles" in project "CleanEngine.vcxproj".: (TargetId:30)
+09:33:43.719     1>Target "SelectCustomBuild: (TargetId:31)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CustomBuild" depends on it):
+09:33:43.719     1>Done building target "SelectCustomBuild" in project "CleanEngine.vcxproj".: (TargetId:31)
+09:33:43.719     1>Target "ComputeCustomBuildOutput: (TargetId:32)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CustomBuild" depends on it):
                    Task "CreateItem" skipped, due to false condition; ('%(CustomBuildOutputs.OutputItemType)'!='') was evaluated as (''!='').
                    Task "MakeDir" (TaskId:22)
                    Done executing task "MakeDir". (TaskId:22)
-21:40:36.419     1>Done building target "ComputeCustomBuildOutput" in project "CleanEngine.vcxproj".: (TargetId:32)
-21:40:36.419     1>Target "CustomBuild: (TargetId:33)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.719     1>Done building target "ComputeCustomBuildOutput" in project "CleanEngine.vcxproj".: (TargetId:32)
+09:33:43.719     1>Target "CustomBuild: (TargetId:33)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Set Property: CustomBuildToolArchitecture=Native32Bit
                    Using "GetOutOfDateItems" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
                    Task "GetOutOfDateItems" (TaskId:23)
@@ -2856,12 +2856,12 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Done executing task "GetOutOfDateItems". (TaskId:24)
                    Task "ParallelCustomBuild" skipped, due to false condition; ('@(_ParallelCustomBuild)' != '') was evaluated as ('' != '').
                    Task "CustomBuild" skipped, due to false condition; ('@(_CustomBuild)' != '') was evaluated as ('' != '').
-21:40:36.426     1>Done building target "CustomBuild" in project "CleanEngine.vcxproj".: (TargetId:33)
+09:33:43.726     1>Done building target "CustomBuild" in project "CleanEngine.vcxproj".: (TargetId:33)
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "_CreateCopyFileItems" skipped, due to false condition; ('@(CopyFileToFolders)' != '') was evaluated as ('' != '').
                    Target "_SelectedFiles" skipped. Previously built successfully.
-21:40:36.426     1>Target "CopyFileToFolders: (TargetId:34)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.726     1>Target "CopyFileToFolders: (TargetId:34)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
                    Task "GetOutOfDateItems" (TaskId:25)
                      Task Parameter:TLogNamePrefix=CopyFile (TaskId:25)
                      Task Parameter:TLogDirectory=x64\Debug\Clean-Engine.tlog\ (TaskId:25)
@@ -2870,59 +2870,59 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:TrackFileAccess=True (TaskId:25)
                    Done executing task "GetOutOfDateItems". (TaskId:25)
                    Task "Copy" skipped, due to false condition; ('@(_OutOfDateCopyFile)' != '') was evaluated as ('' != '').
-21:40:36.426     1>Done building target "CopyFileToFolders" in project "CleanEngine.vcxproj".: (TargetId:34)
+09:33:43.726     1>Done building target "CopyFileToFolders" in project "CleanEngine.vcxproj".: (TargetId:34)
                    Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
-21:40:36.426     1>Target "_Xsd: (TargetId:35)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-21:40:36.426     1>Done building target "_Xsd" in project "CleanEngine.vcxproj".: (TargetId:35)
-21:40:36.426     1>Target "MakeDirsForMidl: (TargetId:36)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
+09:33:43.726     1>Target "_Xsd: (TargetId:35)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.726     1>Done building target "_Xsd" in project "CleanEngine.vcxproj".: (TargetId:35)
+09:33:43.726     1>Target "MakeDirsForMidl: (TargetId:36)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
                    Task "Makedir" (TaskId:26)
                    Done executing task "Makedir". (TaskId:26)
-21:40:36.426     1>Done building target "MakeDirsForMidl" in project "CleanEngine.vcxproj".: (TargetId:36)
+09:33:43.726     1>Done building target "MakeDirsForMidl" in project "CleanEngine.vcxproj".: (TargetId:36)
                    Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
                    Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
                    Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
-21:40:36.426     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:37)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
+09:33:43.726     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:37)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
                    Set Property: Midl_OutputDir=
-21:40:36.426     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "CleanEngine.vcxproj".: (TargetId:37)
-21:40:36.426     1>Target "AfterMidl: (TargetId:38)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
-21:40:36.426     1>Done building target "AfterMidl" in project "CleanEngine.vcxproj".: (TargetId:38)
-21:40:36.426     1>Target "_Midl: (TargetId:39)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-21:40:36.426     1>Done building target "_Midl" in project "CleanEngine.vcxproj".: (TargetId:39)
-21:40:36.426     1>Target "AfterBuildGenerateSources: (TargetId:40)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-21:40:36.426     1>Done building target "AfterBuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:40)
-21:40:36.426     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:41)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
-21:40:36.426     1>Done building target "AfterBuildGenerateSourcesEvent" in project "CleanEngine.vcxproj".: (TargetId:41)
-21:40:36.426     1>Target "_BuildGenerateSourcesAction: (TargetId:42)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildGenerateSources" depends on it):
-21:40:36.426     1>Done building target "_BuildGenerateSourcesAction" in project "CleanEngine.vcxproj".: (TargetId:42)
-21:40:36.426     1>Target "BuildGenerateSources: (TargetId:43)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
-21:40:36.426     1>Done building target "BuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:43)
+09:33:43.726     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "CleanEngine.vcxproj".: (TargetId:37)
+09:33:43.726     1>Target "AfterMidl: (TargetId:38)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Midl" depends on it):
+09:33:43.726     1>Done building target "AfterMidl" in project "CleanEngine.vcxproj".: (TargetId:38)
+09:33:43.726     1>Target "_Midl: (TargetId:39)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.726     1>Done building target "_Midl" in project "CleanEngine.vcxproj".: (TargetId:39)
+09:33:43.726     1>Target "AfterBuildGenerateSources: (TargetId:40)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.726     1>Done building target "AfterBuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:40)
+09:33:43.726     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:41)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+09:33:43.726     1>Done building target "AfterBuildGenerateSourcesEvent" in project "CleanEngine.vcxproj".: (TargetId:41)
+09:33:43.726     1>Target "_BuildGenerateSourcesAction: (TargetId:42)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildGenerateSources" depends on it):
+09:33:43.726     1>Done building target "_BuildGenerateSourcesAction" in project "CleanEngine.vcxproj".: (TargetId:42)
+09:33:43.726     1>Target "BuildGenerateSources: (TargetId:43)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:43.726     1>Done building target "BuildGenerateSources" in project "CleanEngine.vcxproj".: (TargetId:43)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-21:40:36.426     1>Target "BuildCompileTraverse: (TargetId:44)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildCompile" depends on it):
+09:33:43.726     1>Target "BuildCompileTraverse: (TargetId:44)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildCompile" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-21:40:36.426     1>Done building target "BuildCompileTraverse" in project "CleanEngine.vcxproj".: (TargetId:44)
+09:33:43.726     1>Done building target "BuildCompileTraverse" in project "CleanEngine.vcxproj".: (TargetId:44)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:36.426     1>Target "BeforeClCompile: (TargetId:45)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
-21:40:36.426     1>Done building target "BeforeClCompile" in project "CleanEngine.vcxproj".: (TargetId:45)
+09:33:43.726     1>Target "BeforeClCompile: (TargetId:45)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.726     1>Done building target "BeforeClCompile" in project "CleanEngine.vcxproj".: (TargetId:45)
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
-21:40:36.426     1>Target "ComputeCLInputPDBName: (TargetId:46)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
-21:40:36.426     1>Done building target "ComputeCLInputPDBName" in project "CleanEngine.vcxproj".: (TargetId:46)
+09:33:43.727     1>Target "ComputeCLInputPDBName: (TargetId:46)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.727     1>Done building target "ComputeCLInputPDBName" in project "CleanEngine.vcxproj".: (TargetId:46)
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:36.426     1>Target "FindReferenceAssembliesForReferences: (TargetId:47)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeReferenceCLInput" depends on it):
-21:40:36.426     1>Done building target "FindReferenceAssembliesForReferences" in project "CleanEngine.vcxproj".: (TargetId:47)
+09:33:43.727     1>Target "FindReferenceAssembliesForReferences: (TargetId:47)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeReferenceCLInput" depends on it):
+09:33:43.727     1>Done building target "FindReferenceAssembliesForReferences" in project "CleanEngine.vcxproj".: (TargetId:47)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:36.426     1>Target "GetReferencedVCProjectsInfo: (TargetId:48)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeReferenceCLInput" depends on it):
+09:33:43.727     1>Target "GetReferencedVCProjectsInfo: (TargetId:48)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeReferenceCLInput" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '').
-21:40:36.426     1>Done building target "GetReferencedVCProjectsInfo" in project "CleanEngine.vcxproj".: (TargetId:48)
-21:40:36.426     1>Target "ComputeReferenceCLInput: (TargetId:49)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.727     1>Done building target "GetReferencedVCProjectsInfo" in project "CleanEngine.vcxproj".: (TargetId:48)
+09:33:43.727     1>Target "ComputeReferenceCLInput: (TargetId:49)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') was evaluated as (''!='' and '' != 'true' and 'true' == 'true').
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_ReferenceOutputsToCopyLocally)'!='' and '$(DesignTimeBuild)' != 'true' and '$(TrackFileAccess)' == 'true') was evaluated as (''!='' and '' != 'true' and 'true' == 'true').
                    Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
-21:40:36.427     1>Done building target "ComputeReferenceCLInput" in project "CleanEngine.vcxproj".: (TargetId:49)
-21:40:36.427     1>Target "WarnCompileDuplicatedFilename: (TargetId:50)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.727     1>Done building target "ComputeReferenceCLInput" in project "CleanEngine.vcxproj".: (TargetId:49)
+09:33:43.727     1>Target "WarnCompileDuplicatedFilename: (TargetId:50)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Collision.cpp' != 'Collision.cpp' and 'x64\Debug\' == 'x64\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Game.cpp' != 'Game.cpp' and 'x64\Debug\' == 'x64\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'GameObject.cpp' != 'GameObject.cpp' and 'x64\Debug\' == 'x64\Debug\').
@@ -2930,11 +2930,11 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'main.cpp' != 'main.cpp' and 'x64\Debug\' == 'x64\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'TextureManager.cpp' != 'TextureManager.cpp' and 'x64\Debug\' == 'x64\Debug\').
                    Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'Vector2D.cpp' != 'Vector2D.cpp' and 'x64\Debug\' == 'x64\Debug\').
-21:40:36.427     1>Done building target "WarnCompileDuplicatedFilename" in project "CleanEngine.vcxproj".: (TargetId:50)
-21:40:36.427     1>Target "FixupCLCompileOptions: (TargetId:51)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.728     1>Done building target "WarnCompileDuplicatedFilename" in project "CleanEngine.vcxproj".: (TargetId:50)
+09:33:43.728     1>Target "FixupCLCompileOptions: (TargetId:51)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
                    Set Property: _PCHForceSyncWrite=true
-21:40:36.429     1>Done building target "FixupCLCompileOptions" in project "CleanEngine.vcxproj".: (TargetId:51)
-21:40:36.429     1>Target "MakeDirsForCl: (TargetId:52)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.729     1>Done building target "FixupCLCompileOptions" in project "CleanEngine.vcxproj".: (TargetId:51)
+09:33:43.729     1>Target "MakeDirsForCl: (TargetId:52)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
                    Added Item(s): ClDirsToMake=C:\Dev\clean-engine\CleanEngine\x64\Debug
                    Added Item(s): ClDirsToMake=C:\Dev\clean-engine\CleanEngine\x64\Debug
                    Added Item(s): ClDirsToMake=C:\Dev\clean-engine\CleanEngine\x64\Debug
@@ -2953,7 +2953,7 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                            C:\Dev\clean-engine\CleanEngine\x64\Debug
                            C:\Dev\clean-engine\CleanEngine\x64\Debug
                            C:\Dev\clean-engine\CleanEngine\x64\Debug
-21:40:36.429     1>Done building target "MakeDirsForCl" in project "CleanEngine.vcxproj".: (TargetId:52)
+09:33:43.729     1>Done building target "MakeDirsForCl" in project "CleanEngine.vcxproj".: (TargetId:52)
                    Target "_SelectedFiles" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
@@ -2963,11 +2963,11 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
                    Target "SelectCustomBuild" skipped. Previously built successfully.
                    Target "SetModuleDependencies" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(EnableCppModules)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
-21:40:36.429     1>Target "SelectClCompile: (TargetId:53)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ClCompile" depends on it):
-21:40:36.429     1>Done building target "SelectClCompile" in project "CleanEngine.vcxproj".: (TargetId:53)
+09:33:43.729     1>Target "SelectClCompile: (TargetId:53)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ClCompile" depends on it):
+09:33:43.729     1>Done building target "SelectClCompile" in project "CleanEngine.vcxproj".: (TargetId:53)
                    Target "SelectAnalysisManifest" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
                    Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Collision.cpp;Game.cpp;GameObject.cpp;...' != '' and 'false' == 'True').
-21:40:36.429     1>Target "ClCompile: (TargetId:54)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:43.730     1>Target "ClCompile: (TargetId:54)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
                    Set Property: CLToolArchitecture=Native64Bit
                    Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'x64\Debug\vc143.pdb' != '' and !Exists(x64\Debug\vc143.pdb)).
                    Task "MultiToolTask" skipped, due to false condition; ('%(ClCompile.CompilerIteration)' == 'Modules') was evaluated as ('' == 'Modules').
@@ -3690,84 +3690,58 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAIN.OBJ (TaskId:28)
                      	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\TEXTUREMANAGER.OBJ (TaskId:28)
                      	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\VECTOR2D.OBJ (TaskId:28)
-                     Collision.cpp will be compiled because C:\Dev\clean-engine\CleanEngine\Collision.cpp was modified at 10/6/2022 9:25:14 PM. (TaskId:28)
-                     Game.cpp will be compiled because C:\Dev\clean-engine\CleanEngine\Game.cpp was modified at 10/6/2022 9:40:29 PM. (TaskId:28)
-                     No output for C:\DEV\CLEAN-ENGINE\CLEANENGINE\COLLISION.CPP|C:\DEV\CLEAN-ENGINE\CLEANENGINE\GAME.CPP was found in the tracking log; source compilation required. (TaskId:28)
+                     MapManager.cpp will be compiled because C:\Dev\clean-engine\CleanEngine\MapManager.cpp was modified at 10/7/2022 9:33:42 AM. (TaskId:28)
+                     Outputs for C:\DEV\CLEAN-ENGINE\CLEANENGINE\MAPMANAGER.CPP: (TaskId:28)
+                     	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAPMANAGER.OBJ (TaskId:28)
                      Write Tracking Logs: (TaskId:28)
                      	x64\Debug\Clean-Engine.tlog\CL.write.1.tlog (TaskId:28)
                      Environment Variables passed to tool: (TaskId:28)
-                       VS_UNICODE_OUTPUT=1608 (TaskId:28)
-                     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\Dev\SDL2_image-2.6.2\include" /I"C:\Dev\SDL2-2.24.1\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Collision.cpp Game.cpp (TaskId:28)
+                       VS_UNICODE_OUTPUT=1504 (TaskId:28)
+                     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\Dev\SDL2_image-2.6.2\include" /I"C:\Dev\SDL2-2.24.1\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MapManager.cpp (TaskId:28)
                      Tracking command: (TaskId:28)
-                     C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Dev\clean-engine\CleanEngine\x64\Debug\Clean-Engine.tlog /r "C:\DEV\CLEAN-ENGINE\CLEANENGINE\COLLISION.CPP|C:\DEV\CLEAN-ENGINE\CLEANENGINE\GAME.CPP" /b MSBuildConsole_CancelEvent49206d06ad9d4f57858f27997b82d54c  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe"  /c /I"C:\Dev\SDL2_image-2.6.2\include" /I"C:\Dev\SDL2-2.24.1\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Collision.cpp Game.cpp (TaskId:28)
-                     Collision.cpp (TaskId:28)
-21:40:36.947     1>C:\Dev\clean-engine\CleanEngine\TransformComponent.h(37,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-21:40:36.947     1>C:\Dev\clean-engine\CleanEngine\TransformComponent.h(38,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-21:40:36.998     1>C:\Dev\clean-engine\CleanEngine\ECS.h(73,33): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-                             with (TaskId:28)
-                             [ (TaskId:28)
-                                 _Ty=float (TaskId:28)
-                             ] (TaskId:28)
-                   C:\Dev\clean-engine\CleanEngine\TileComponent.h(45): message : see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,float,float,int&,int&,int>(float &&,float &&,int &,int &,int &&)' being compiled (TaskId:28)
-                             with (TaskId:28)
-                             [ (TaskId:28)
-                                 T=TransformComponent (TaskId:28)
-                             ] (TaskId:28)
-                     Game.cpp (TaskId:28)
-21:40:37.378     1>C:\Dev\clean-engine\CleanEngine\TransformComponent.h(37,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-21:40:37.378     1>C:\Dev\clean-engine\CleanEngine\TransformComponent.h(38,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-21:40:37.454     1>C:\Dev\clean-engine\CleanEngine\ECS.h(73,33): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-                             with (TaskId:28)
-                             [ (TaskId:28)
-                                 _Ty=float (TaskId:28)
-                             ] (TaskId:28)
-                   C:\Dev\clean-engine\CleanEngine\TileComponent.h(45): message : see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,float,float,int&,int&,int>(float &&,float &&,int &,int &,int &&)' being compiled (TaskId:28)
-                             with (TaskId:28)
-                             [ (TaskId:28)
-                                 T=TransformComponent (TaskId:28)
-                             ] (TaskId:28)
-                     Generating Code... (TaskId:28)
+                     C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Dev\clean-engine\CleanEngine\x64\Debug\Clean-Engine.tlog /r C:\DEV\CLEAN-ENGINE\CLEANENGINE\MAPMANAGER.CPP /b MSBuildConsole_CancelEvent0e992a3ee8294be884293b2e720e6c70  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe"  /c /I"C:\Dev\SDL2_image-2.6.2\include" /I"C:\Dev\SDL2-2.24.1\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MapManager.cpp (TaskId:28)
+                     MapManager.cpp (TaskId:28)
                    Done executing task "CL". (TaskId:28)
-21:40:37.645     1>Done building target "ClCompile" in project "CleanEngine.vcxproj".: (TargetId:54)
+09:33:44.594     1>Done building target "ClCompile" in project "CleanEngine.vcxproj".: (TargetId:54)
                    Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
                    Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Collision.cpp;Game.cpp;GameObject.cpp;...' != '' and 'false' == 'True').
                    Target "NoAnalysisToolEnabledWarning" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false') was evaluated as ('false'=='true' AND 'true'=='false' AND 'false'=='false').
                    Target "RunSelectedFileClangTidy" skipped, due to false condition; ('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='') was evaluated as ('false'=='true' AND ''!='').
                    Target "MicrosoftAnalysisIncompatiableWithClangCl" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true') was evaluated as ('false'=='true' AND 'true'=='true' AND ''=='true').
-21:40:37.645     1>Target "AfterClCompile: (TargetId:55)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
-21:40:37.645     1>Done building target "AfterClCompile" in project "CleanEngine.vcxproj".: (TargetId:55)
-21:40:37.645     1>Target "_ClCompile: (TargetId:56)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
-21:40:37.645     1>Done building target "_ClCompile" in project "CleanEngine.vcxproj".: (TargetId:56)
+09:33:44.594     1>Target "AfterClCompile: (TargetId:55)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ClCompile" depends on it):
+09:33:44.594     1>Done building target "AfterClCompile" in project "CleanEngine.vcxproj".: (TargetId:55)
+09:33:44.594     1>Target "_ClCompile: (TargetId:56)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
+09:33:44.594     1>Done building target "_ClCompile" in project "CleanEngine.vcxproj".: (TargetId:56)
                    Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
-21:40:37.645     1>Target "BeforeResourceCompile: (TargetId:57)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
-21:40:37.645     1>Done building target "BeforeResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:57)
-21:40:37.645     1>Target "MakeDirsForResourceCompile: (TargetId:58)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
+09:33:44.594     1>Target "BeforeResourceCompile: (TargetId:57)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
+09:33:44.594     1>Done building target "BeforeResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:57)
+09:33:44.594     1>Target "MakeDirsForResourceCompile: (TargetId:58)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
                    Added Item(s): RcDirsToMake=C:\Dev\clean-engine\CleanEngine\x64\Debug
                    Task "MakeDir" (TaskId:29)
                      Task Parameter:Directories=C:\Dev\clean-engine\CleanEngine\x64\Debug (TaskId:29)
                    Done executing task "MakeDir". (TaskId:29)
                    Removed Item(s): RcDirsToMake=C:\Dev\clean-engine\CleanEngine\x64\Debug
-21:40:37.646     1>Done building target "MakeDirsForResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:58)
+09:33:44.595     1>Done building target "MakeDirsForResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:58)
                    Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
-21:40:37.646     1>Target "AfterResourceCompile: (TargetId:59)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
-21:40:37.646     1>Done building target "AfterResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:59)
-21:40:37.646     1>Target "_ResourceCompile: (TargetId:60)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
-21:40:37.646     1>Done building target "_ResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:60)
+09:33:44.595     1>Target "AfterResourceCompile: (TargetId:59)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_ResourceCompile" depends on it):
+09:33:44.595     1>Done building target "AfterResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:59)
+09:33:44.595     1>Target "_ResourceCompile: (TargetId:60)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
+09:33:44.595     1>Done building target "_ResourceCompile" in project "CleanEngine.vcxproj".: (TargetId:60)
                    Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
                    Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
-21:40:37.646     1>Target "AfterBuildCompileEvent: (TargetId:61)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
-21:40:37.646     1>Done building target "AfterBuildCompileEvent" in project "CleanEngine.vcxproj".: (TargetId:61)
-21:40:37.646     1>Target "_BuildCompileAction: (TargetId:62)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildCompile" depends on it):
-21:40:37.646     1>Done building target "_BuildCompileAction" in project "CleanEngine.vcxproj".: (TargetId:62)
-21:40:37.646     1>Target "BuildCompile: (TargetId:63)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
-21:40:37.646     1>Done building target "BuildCompile" in project "CleanEngine.vcxproj".: (TargetId:63)
+09:33:44.595     1>Target "AfterBuildCompileEvent: (TargetId:61)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildCompileAction" depends on it):
+09:33:44.595     1>Done building target "AfterBuildCompileEvent" in project "CleanEngine.vcxproj".: (TargetId:61)
+09:33:44.595     1>Target "_BuildCompileAction: (TargetId:62)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildCompile" depends on it):
+09:33:44.595     1>Done building target "_BuildCompileAction" in project "CleanEngine.vcxproj".: (TargetId:62)
+09:33:44.595     1>Target "BuildCompile: (TargetId:63)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:44.595     1>Done building target "BuildCompile" in project "CleanEngine.vcxproj".: (TargetId:63)
                    Target "PrepareProjectReferences" skipped. Previously built successfully.
-21:40:37.646     1>Target "BuildLinkTraverse: (TargetId:64)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildLink" depends on it):
+09:33:44.595     1>Target "BuildLinkTraverse: (TargetId:64)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildLink" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-21:40:37.646     1>Done building target "BuildLinkTraverse" in project "CleanEngine.vcxproj".: (TargetId:64)
+09:33:44.595     1>Done building target "BuildLinkTraverse" in project "CleanEngine.vcxproj".: (TargetId:64)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:37.646     1>Target "ComputeLegacyManifestEmbedding: (TargetId:65)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.595     1>Target "ComputeLegacyManifestEmbedding: (TargetId:65)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -3797,15 +3771,15 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-21:40:37.646     1>Done building target "ComputeLegacyManifestEmbedding" in project "CleanEngine.vcxproj".: (TargetId:65)
-21:40:37.646     1>Target "BeforeLink: (TargetId:66)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.646     1>Done building target "BeforeLink" in project "CleanEngine.vcxproj".: (TargetId:66)
-21:40:37.646     1>Target "ComputeRCOutputs: (TargetId:67)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
-21:40:37.646     1>Done building target "ComputeRCOutputs" in project "CleanEngine.vcxproj".: (TargetId:67)
-21:40:37.646     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:68)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.646     1>Done building target "ComputeRCGeneratedLinkInputs" in project "CleanEngine.vcxproj".: (TargetId:68)
-21:40:37.646     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:69)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.646     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "CleanEngine.vcxproj".: (TargetId:69)
+09:33:44.595     1>Done building target "ComputeLegacyManifestEmbedding" in project "CleanEngine.vcxproj".: (TargetId:65)
+09:33:44.595     1>Target "BeforeLink: (TargetId:66)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.595     1>Done building target "BeforeLink" in project "CleanEngine.vcxproj".: (TargetId:66)
+09:33:44.595     1>Target "ComputeRCOutputs: (TargetId:67)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+09:33:44.595     1>Done building target "ComputeRCOutputs" in project "CleanEngine.vcxproj".: (TargetId:67)
+09:33:44.595     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:68)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.595     1>Done building target "ComputeRCGeneratedLinkInputs" in project "CleanEngine.vcxproj".: (TargetId:68)
+09:33:44.595     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:69)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.595     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "CleanEngine.vcxproj".: (TargetId:69)
                    Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
                    Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
                    Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
@@ -3813,7 +3787,7 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Target "ComputeReferenceCLInput" skipped. Previously built successfully.
                    Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
                    Target "FixupCLCompileOptions" skipped. Previously built successfully.
-21:40:37.646     1>Target "ComputeCLOutputs: (TargetId:70)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+09:33:44.595     1>Target "ComputeCLOutputs: (TargetId:70)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
                    Added Item(s): 
                        Obj=
                            x64\Debug\Collision.obj
@@ -4404,8 +4378,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=x64\Debug\
-21:40:37.646     1>Done building target "ComputeCLOutputs" in project "CleanEngine.vcxproj".: (TargetId:70)
-21:40:37.646     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:71)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.595     1>Done building target "ComputeCLOutputs" in project "CleanEngine.vcxproj".: (TargetId:70)
+09:33:44.595     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:71)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Link=
                            x64\Debug\Collision.obj
@@ -4695,11 +4669,11 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    TypeLibraryResourceID=1
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
-21:40:37.647     1>Done building target "ComputeCLGeneratedLinkInputs" in project "CleanEngine.vcxproj".: (TargetId:71)
-21:40:37.647     1>Target "ComputeLinkInputsFromProject: (TargetId:72)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.647     1>Done building target "ComputeLinkInputsFromProject" in project "CleanEngine.vcxproj".: (TargetId:72)
+09:33:44.596     1>Done building target "ComputeCLGeneratedLinkInputs" in project "CleanEngine.vcxproj".: (TargetId:71)
+09:33:44.596     1>Target "ComputeLinkInputsFromProject: (TargetId:72)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.596     1>Done building target "ComputeLinkInputsFromProject" in project "CleanEngine.vcxproj".: (TargetId:72)
                    Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
-21:40:37.647     1>Target "ComputeManifestInputsTargets: (TargetId:73)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.596     1>Target "ComputeManifestInputsTargets: (TargetId:73)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Added Item(s): 
                        Manifest=
                            temp
@@ -4730,9 +4704,9 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    UpdateFileHashes=false
                                    VerboseOutput=true
                                    _LocalVariable=true
-21:40:37.647     1>Done building target "ComputeManifestInputsTargets" in project "CleanEngine.vcxproj".: (TargetId:73)
+09:33:44.596     1>Done building target "ComputeManifestInputsTargets" in project "CleanEngine.vcxproj".: (TargetId:73)
                    Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
-21:40:37.647     1>Target "AssignTargetPaths: (TargetId:74)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
+09:33:44.596     1>Target "AssignTargetPaths: (TargetId:74)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
                    Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignTargetPath" (TaskId:30)
                      Task Parameter:RootFolder=C:\Dev\clean-engine\CleanEngine (TaskId:30)
@@ -4747,9 +4721,9 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:RootFolder=C:\Dev\clean-engine\CleanEngine (TaskId:33)
                    Done executing task "AssignTargetPath". (TaskId:33)
                    Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
-21:40:37.647     1>Done building target "AssignTargetPaths" in project "CleanEngine.vcxproj".: (TargetId:74)
+09:33:44.596     1>Done building target "AssignTargetPaths" in project "CleanEngine.vcxproj".: (TargetId:74)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-21:40:37.647     1>Target "SplitResourcesByCulture: (TargetId:75)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
+09:33:44.596     1>Target "SplitResourcesByCulture: (TargetId:75)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
                    Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
@@ -4757,13 +4731,13 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignCulture" (TaskId:34)
                    Done executing task "AssignCulture". (TaskId:34)
-21:40:37.648     1>Done building target "SplitResourcesByCulture" in project "CleanEngine.vcxproj".: (TargetId:75)
+09:33:44.597     1>Done building target "SplitResourcesByCulture" in project "CleanEngine.vcxproj".: (TargetId:75)
                    Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
-21:40:37.648     1>Target "CreateCustomManifestResourceNames: (TargetId:76)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
-21:40:37.648     1>Done building target "CreateCustomManifestResourceNames" in project "CleanEngine.vcxproj".: (TargetId:76)
-21:40:37.648     1>Target "PrepareResourceNames: (TargetId:77)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.648     1>Done building target "PrepareResourceNames" in project "CleanEngine.vcxproj".: (TargetId:77)
-21:40:37.648     1>Target "MakeDirsForLink: (TargetId:78)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.597     1>Target "CreateCustomManifestResourceNames: (TargetId:76)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareResourceNames" depends on it):
+09:33:44.597     1>Done building target "CreateCustomManifestResourceNames" in project "CleanEngine.vcxproj".: (TargetId:76)
+09:33:44.597     1>Target "PrepareResourceNames: (TargetId:77)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.597     1>Done building target "PrepareResourceNames" in project "CleanEngine.vcxproj".: (TargetId:77)
+09:33:44.597     1>Target "MakeDirsForLink: (TargetId:78)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Set Property: _LinkImportLibrary=C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib
                    Added Item(s): _LinkImportLibraryFile=C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib
                    Added Item(s): LinkDirsToMake=C:\Dev\clean-engine\x64\Debug
@@ -4785,25 +4759,25 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                            C:\Dev\clean-engine\x64\Debug
                            C:\Dev\clean-engine\x64\Debug\
                    Removed Item(s): _LinkImportLibraryFile=C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib
-21:40:37.648     1>Done building target "MakeDirsForLink" in project "CleanEngine.vcxproj".: (TargetId:78)
-21:40:37.648     1>Target "DoLinkOutputFilesMatch: (TargetId:79)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.597     1>Done building target "MakeDirsForLink" in project "CleanEngine.vcxproj".: (TargetId:78)
+09:33:44.597     1>Target "DoLinkOutputFilesMatch: (TargetId:79)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Added Item(s): _OutputFileFromLink=C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe' == '').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe' != '' and 'C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe' != 'C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe' != '' and 'Clean-Engine' != '' and 'Clean-Engine' != 'Clean-Engine').
                    Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
-21:40:37.649     1>Done building target "DoLinkOutputFilesMatch" in project "CleanEngine.vcxproj".: (TargetId:79)
-21:40:37.649     1>Target "PreLinkEvent: (TargetId:80)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.598     1>Done building target "DoLinkOutputFilesMatch" in project "CleanEngine.vcxproj".: (TargetId:79)
+09:33:44.598     1>Target "PreLinkEvent: (TargetId:80)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
-21:40:37.649     1>Done building target "PreLinkEvent" in project "CleanEngine.vcxproj".: (TargetId:80)
-21:40:37.649     1>Target "ComputeLinkSwitches: (TargetId:81)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Link" depends on it):
+09:33:44.598     1>Done building target "PreLinkEvent" in project "CleanEngine.vcxproj".: (TargetId:80)
+09:33:44.598     1>Target "ComputeLinkSwitches: (TargetId:81)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Link" depends on it):
                    Set Property: Link_MinimalRebuildFromTracking=true
                    Set Property: LinkToolArchitecture=Native64Bit
                    Set Property: _GenerateWindowsMetadata=
-21:40:37.649     1>Done building target "ComputeLinkSwitches" in project "CleanEngine.vcxproj".: (TargetId:81)
-21:40:37.649     1>Target "Link: (TargetId:82)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.598     1>Done building target "ComputeLinkSwitches" in project "CleanEngine.vcxproj".: (TargetId:81)
+09:33:44.598     1>Target "Link: (TargetId:82)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Using "Link" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
                    Task "Link" (TaskId:36)
                      Task Parameter:OutputFile=C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe (TaskId:36)
@@ -5284,16 +5258,15 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\VECTOR2D.OBJ (TaskId:36)
                      	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:36)
                      	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:36)
+                     	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\MSVCPRTD.LIB (TaskId:36)
                      	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\MSVCRTD.LIB (TaskId:36)
                      	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\OLDNAMES.LIB (TaskId:36)
-                     	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\MSVCPRTD.LIB (TaskId:36)
                      	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\LIB\X64\VCRUNTIMED.LIB (TaskId:36)
                      	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.19041.0\UCRT\X64\UCRTD.LIB (TaskId:36)
-                     	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.33.31629\BIN\HOSTX64\X64\CVTRES.EXE (TaskId:36)
                      	C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\VC143.PDB (TaskId:36)
-                     Source compilation required: input C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\COLLISION.OBJ is newer than output C:\DEV\CLEAN-ENGINE\X64\DEBUG\CLEAN-ENGINE.EXE. (TaskId:36)
+                     Source compilation required: input C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAPMANAGER.OBJ is newer than output C:\DEV\CLEAN-ENGINE\X64\DEBUG\CLEAN-ENGINE.PDB. (TaskId:36)
                      Environment Variables passed to tool: (TaskId:36)
-                       VS_UNICODE_OUTPUT=1816 (TaskId:36)
+                       VS_UNICODE_OUTPUT=1700 (TaskId:36)
                      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe" /INCREMENTAL /ILK:"x64\Debug\Clean-Engine.ilk" /NOLOGO /LIBPATH:"C:\Dev\SDL2_image-2.6.2\lib\x64" /LIBPATH:"C:\Dev\SDL2-2.24.1\lib\x64" SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib" /MACHINE:X64 x64\Debug\Collision.obj
                      x64\Debug\Game.obj
                      x64\Debug\GameObject.obj
@@ -5302,7 +5275,7 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      x64\Debug\TextureManager.obj
                      x64\Debug\Vector2D.obj (TaskId:36)
                      Tracking command: (TaskId:36)
-                     C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Dev\clean-engine\CleanEngine\x64\Debug\Clean-Engine.tlog /r "C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\COLLISION.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\GAME.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\GAMEOBJECT.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAIN.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAPMANAGER.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\TEXTUREMANAGER.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\VECTOR2D.OBJ" /b MSBuildConsole_CancelEvent5e73bb99942346e6853dee05d8c1b11d  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe" /INCREMENTAL /ILK:"x64\Debug\Clean-Engine.ilk" /NOLOGO /LIBPATH:"C:\Dev\SDL2_image-2.6.2\lib\x64" /LIBPATH:"C:\Dev\SDL2-2.24.1\lib\x64" SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib" /MACHINE:X64 x64\Debug\Collision.obj
+                     C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Dev\clean-engine\CleanEngine\x64\Debug\Clean-Engine.tlog /r "C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\COLLISION.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\GAME.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\GAMEOBJECT.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAIN.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\MAPMANAGER.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\TEXTUREMANAGER.OBJ|C:\DEV\CLEAN-ENGINE\CLEANENGINE\X64\DEBUG\VECTOR2D.OBJ" /b MSBuildConsole_CancelEvent891340e0652c4404b116cb43ec4fdaf0  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe" /INCREMENTAL /ILK:"x64\Debug\Clean-Engine.ilk" /NOLOGO /LIBPATH:"C:\Dev\SDL2_image-2.6.2\lib\x64" /LIBPATH:"C:\Dev\SDL2-2.24.1\lib\x64" SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\clean-engine\x64\Debug\Clean-Engine.lib" /MACHINE:X64 x64\Debug\Collision.obj
                      x64\Debug\Game.obj
                      x64\Debug\GameObject.obj
                      x64\Debug\MapManager.obj
@@ -5322,36 +5295,36 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
                                 DebugFull == 'true' and  != '').
-21:40:37.832     1>Done building target "Link" in project "CleanEngine.vcxproj".: (TargetId:82)
+09:33:44.745     1>Done building target "Link" in project "CleanEngine.vcxproj".: (TargetId:82)
                    Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
                    Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false' and '$(CLRSupport)'!='NetCore') was evaluated as ('false'!='' and 'false'!='false' and 'false'!='NetCore').
                    Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
-21:40:37.832     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:83)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.745     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:83)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
-21:40:37.832     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "CleanEngine.vcxproj".: (TargetId:83)
-21:40:37.832     1>Target "AfterLink: (TargetId:84)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
-21:40:37.832     1>Done building target "AfterLink" in project "CleanEngine.vcxproj".: (TargetId:84)
-21:40:37.832     1>Target "_Link: (TargetId:85)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.832     1>Done building target "_Link" in project "CleanEngine.vcxproj".: (TargetId:85)
-21:40:37.832     1>Target "_ALink: (TargetId:86)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.832     1>Done building target "_ALink" in project "CleanEngine.vcxproj".: (TargetId:86)
+09:33:44.745     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "CleanEngine.vcxproj".: (TargetId:83)
+09:33:44.745     1>Target "AfterLink: (TargetId:84)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_Link" depends on it):
+09:33:44.745     1>Done building target "AfterLink" in project "CleanEngine.vcxproj".: (TargetId:84)
+09:33:44.745     1>Target "_Link: (TargetId:85)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.745     1>Done building target "_Link" in project "CleanEngine.vcxproj".: (TargetId:85)
+09:33:44.745     1>Target "_ALink: (TargetId:86)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.745     1>Done building target "_ALink" in project "CleanEngine.vcxproj".: (TargetId:86)
                    Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
-21:40:37.832     1>Target "_Manifest: (TargetId:87)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.745     1>Target "_Manifest: (TargetId:87)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
-21:40:37.832     1>Done building target "_Manifest" in project "CleanEngine.vcxproj".: (TargetId:87)
-21:40:37.832     1>Target "RegisterOutput: (TargetId:88)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.745     1>Done building target "_Manifest" in project "CleanEngine.vcxproj".: (TargetId:87)
+09:33:44.745     1>Target "RegisterOutput: (TargetId:88)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
                    Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
                    Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
-21:40:37.833     1>Done building target "RegisterOutput" in project "CleanEngine.vcxproj".: (TargetId:88)
+09:33:44.745     1>Done building target "RegisterOutput" in project "CleanEngine.vcxproj".: (TargetId:88)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "ResolveReferences" skipped. Previously built successfully.
-21:40:37.833     1>Target "ResolvedXDCMake: (TargetId:89)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
+09:33:44.745     1>Target "ResolvedXDCMake: (TargetId:89)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-21:40:37.833     1>Done building target "ResolvedXDCMake" in project "CleanEngine.vcxproj".: (TargetId:89)
-21:40:37.833     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:90)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
+09:33:44.745     1>Done building target "ResolvedXDCMake" in project "CleanEngine.vcxproj".: (TargetId:89)
+09:33:44.745     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:90)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
                    Added Item(s): 
                        XdcMake=
                            temp
@@ -5374,26 +5347,26 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                                    OutputFile=C:\Dev\clean-engine\x64\Debug\Clean-Engine.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=x64\Debug\Clean-Engine.tlog\
-21:40:37.833     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "CleanEngine.vcxproj".: (TargetId:90)
-21:40:37.833     1>Target "MakeDirsForXdcMake: (TargetId:91)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
+09:33:44.745     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "CleanEngine.vcxproj".: (TargetId:90)
+09:33:44.745     1>Target "MakeDirsForXdcMake: (TargetId:91)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_XdcMake" depends on it):
                    Task "MakeDir" (TaskId:38)
                    Done executing task "MakeDir". (TaskId:38)
-21:40:37.833     1>Done building target "MakeDirsForXdcMake" in project "CleanEngine.vcxproj".: (TargetId:91)
+09:33:44.746     1>Done building target "MakeDirsForXdcMake" in project "CleanEngine.vcxproj".: (TargetId:91)
                    Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
-21:40:37.833     1>Target "_XdcMake: (TargetId:92)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.833     1>Done building target "_XdcMake" in project "CleanEngine.vcxproj".: (TargetId:92)
-21:40:37.833     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:93)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BscMake" depends on it):
-21:40:37.833     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "CleanEngine.vcxproj".: (TargetId:93)
-21:40:37.833     1>Target "MakeDirsForBscMake: (TargetId:94)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BscMake" depends on it):
+09:33:44.746     1>Target "_XdcMake: (TargetId:92)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.746     1>Done building target "_XdcMake" in project "CleanEngine.vcxproj".: (TargetId:92)
+09:33:44.746     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:93)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BscMake" depends on it):
+09:33:44.746     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "CleanEngine.vcxproj".: (TargetId:93)
+09:33:44.746     1>Target "MakeDirsForBscMake: (TargetId:94)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BscMake" depends on it):
                    Task "MakeDir" (TaskId:39)
                    Done executing task "MakeDir". (TaskId:39)
-21:40:37.833     1>Done building target "MakeDirsForBscMake" in project "CleanEngine.vcxproj".: (TargetId:94)
+09:33:44.746     1>Done building target "MakeDirsForBscMake" in project "CleanEngine.vcxproj".: (TargetId:94)
                    Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-21:40:37.833     1>Target "_BscMake: (TargetId:95)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.833     1>Done building target "_BscMake" in project "CleanEngine.vcxproj".: (TargetId:95)
+09:33:44.746     1>Target "_BscMake: (TargetId:95)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.746     1>Done building target "_BscMake" in project "CleanEngine.vcxproj".: (TargetId:95)
                    Target "PrepareForBuild" skipped. Previously built successfully.
-21:40:37.833     1>Target "BuiltProjectOutputGroup: (TargetId:96)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
+09:33:44.746     1>Target "BuiltProjectOutputGroup: (TargetId:96)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
                    Added Item(s): 
                        _BuiltProjectOutputGroupOutputIntermediate=
                            C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
@@ -5403,26 +5376,26 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                            C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
                                    FinalOutputPath=C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
                                    OriginalItemSpec=C:\Dev\clean-engine\x64\Debug\Clean-Engine.exe
-21:40:37.833     1>Done building target "BuiltProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:96)
+09:33:44.746     1>Done building target "BuiltProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:96)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "PrepareResourceNames" skipped. Previously built successfully.
-21:40:37.833     1>Target "SatelliteDllsProjectOutputGroup: (TargetId:97)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
-21:40:37.833     1>Done building target "SatelliteDllsProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:97)
+09:33:44.746     1>Target "SatelliteDllsProjectOutputGroup: (TargetId:97)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
+09:33:44.746     1>Done building target "SatelliteDllsProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:97)
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "PrepareForBuild" skipped. Previously built successfully.
                    Target "AssignTargetPaths" skipped. Previously built successfully.
-21:40:37.833     1>Target "MakeDirsForFxc: (TargetId:98)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ContentFilesProjectOutputGroup" depends on it):
+09:33:44.746     1>Target "MakeDirsForFxc: (TargetId:98)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "ContentFilesProjectOutputGroup" depends on it):
                    Task "MakeDir" (TaskId:40)
                    Done executing task "MakeDir". (TaskId:40)
-21:40:37.833     1>Done building target "MakeDirsForFxc" in project "CleanEngine.vcxproj".: (TargetId:98)
+09:33:44.746     1>Done building target "MakeDirsForFxc" in project "CleanEngine.vcxproj".: (TargetId:98)
                    Target "_CreateCopyFileItems" skipped, due to false condition; ('@(CopyFileToFolders)' != '') was evaluated as ('' != '').
-21:40:37.833     1>Target "ContentFilesProjectOutputGroup: (TargetId:99)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
+09:33:44.746     1>Target "ContentFilesProjectOutputGroup: (TargetId:99)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateRecipeFile" depends on it):
                    Task "AssignTargetPath" skipped, due to false condition; ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' != '') was evaluated as ('' != '' and '' != '').
                    Task "AssignTargetPath" skipped, due to false condition; ('@(ContentFilesProjectOutputGroupOutputFullPath)' != '' and '%(ContentFilesProjectOutputGroupOutputFullPath.RootFolder)' == '') was evaluated as ('' != '' and '' == '').
-21:40:37.834     1>Done building target "ContentFilesProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:99)
+09:33:44.746     1>Done building target "ContentFilesProjectOutputGroup" in project "CleanEngine.vcxproj".: (TargetId:99)
                    Target "GetReferencedVCProjectsInfo" skipped. Previously built successfully.
-21:40:37.834     1>Target "CreateRecipeFile: (TargetId:100)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.746     1>Target "CreateRecipeFile: (TargetId:100)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
                    Using "GenerateDesktopDeployRecipe" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
                    Task "GenerateDesktopDeployRecipe" (TaskId:41)
                      Task Parameter:
@@ -5433,71 +5406,71 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:OutputFile=C:\Dev\clean-engine\CleanEngine\x64\Debug\Clean-Engine.exe.recipe (TaskId:41)
                      Task Parameter:ProjectDir=C:\Dev\clean-engine\CleanEngine\ (TaskId:41)
                    Done executing task "GenerateDesktopDeployRecipe". (TaskId:41)
-21:40:37.849     1>Done building target "CreateRecipeFile" in project "CleanEngine.vcxproj".: (TargetId:100)
-21:40:37.849     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:101)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+09:33:44.764     1>Done building target "CreateRecipeFile" in project "CleanEngine.vcxproj".: (TargetId:100)
+09:33:44.764     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:101)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
                    Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
                    Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
-21:40:37.849     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "CleanEngine.vcxproj".: (TargetId:101)
+09:33:44.764     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "CleanEngine.vcxproj".: (TargetId:101)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
-21:40:37.849     1>Target "CreateSatelliteAssemblies: (TargetId:102)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.849     1>Done building target "CreateSatelliteAssemblies" in project "CleanEngine.vcxproj".: (TargetId:102)
+09:33:44.765     1>Target "CreateSatelliteAssemblies: (TargetId:102)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.765     1>Done building target "CreateSatelliteAssemblies" in project "CleanEngine.vcxproj".: (TargetId:102)
                    Target "CopyLocalNativeReference" skipped, due to false condition; ('$(CopyLocalProjectReference)' == 'true') was evaluated as ('false' == 'true').
-21:40:37.849     1>Target "_Appverifier: (TargetId:103)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.849     1>Done building target "_Appverifier" in project "CleanEngine.vcxproj".: (TargetId:103)
-21:40:37.849     1>Target "_Deploy: (TargetId:104)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.849     1>Done building target "_Deploy" in project "CleanEngine.vcxproj".: (TargetId:104)
+09:33:44.765     1>Target "_Appverifier: (TargetId:103)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.765     1>Done building target "_Appverifier" in project "CleanEngine.vcxproj".: (TargetId:103)
+09:33:44.765     1>Target "_Deploy: (TargetId:104)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.765     1>Done building target "_Deploy" in project "CleanEngine.vcxproj".: (TargetId:104)
                    Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
                    Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "AssignProjectConfiguration" skipped. Previously built successfully.
                    Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
                    Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
-21:40:37.849     1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:105)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+09:33:44.765     1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:105)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Set Property: _GCTODIKeepDuplicates=false
                    Set Property: _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
-21:40:37.849     1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "CleanEngine.vcxproj".: (TargetId:105)
-21:40:37.849     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:106)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+09:33:44.765     1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "CleanEngine.vcxproj".: (TargetId:105)
+09:33:44.765     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:106)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:42)
                      Task Parameter:RootFolder=C:\Dev\clean-engine\CleanEngine (TaskId:42)
                    Done executing task "AssignTargetPath". (TaskId:42)
-21:40:37.849     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "CleanEngine.vcxproj".: (TargetId:106)
-21:40:37.849     1>Target "GetCopyToOutputDirectoryItems: (TargetId:107)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+09:33:44.765     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "CleanEngine.vcxproj".: (TargetId:106)
+09:33:44.765     1>Target "GetCopyToOutputDirectoryItems: (TargetId:107)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
                    Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "CallTarget" (TaskId:43)
                      Task Parameter:Targets=_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences (TaskId:43)
                    Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
                    Target "_AddOutputPathToGlobalPropertiesToRemove" skipped. Previously built successfully.
-21:40:37.850     1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:108)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+09:33:44.766     1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:108)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Task "AssignTargetPath" (TaskId:44)
                      Task Parameter:RootFolder=C:\Dev\clean-engine\CleanEngine (TaskId:44)
                    Done executing task "AssignTargetPath". (TaskId:44)
-21:40:37.850     1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:108)
+09:33:44.766     1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "CleanEngine.vcxproj".: (TargetId:108)
                    Done executing task "CallTarget". (TaskId:43)
                    Task "CallTarget" (TaskId:45)
                      Task Parameter:Targets=_GetCopyToOutputDirectoryItemsFromThisProject (TaskId:45)
                    Target "AssignTargetPaths" skipped. Previously built successfully.
                    Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" skipped. Previously built successfully.
-21:40:37.850     1>Target "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:109)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+09:33:44.766     1>Target "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:109)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
                    Task "AssignTargetPath" (TaskId:46)
                      Task Parameter:RootFolder=C:\Dev\clean-engine\CleanEngine (TaskId:46)
                    Done executing task "AssignTargetPath". (TaskId:46)
-21:40:37.850     1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "CleanEngine.vcxproj".: (TargetId:109)
+09:33:44.767     1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "CleanEngine.vcxproj".: (TargetId:109)
                    Done executing task "CallTarget". (TaskId:45)
-21:40:37.851     1>Done building target "GetCopyToOutputDirectoryItems" in project "CleanEngine.vcxproj".: (TargetId:107)
+09:33:44.767     1>Done building target "GetCopyToOutputDirectoryItems" in project "CleanEngine.vcxproj".: (TargetId:107)
                    Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
-21:40:37.851     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:110)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
-21:40:37.851     1>Done building target "_CopySourceItemsToOutputDirectory" in project "CleanEngine.vcxproj".: (TargetId:110)
+09:33:44.767     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:110)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+09:33:44.767     1>Done building target "_CopySourceItemsToOutputDirectory" in project "CleanEngine.vcxproj".: (TargetId:110)
                    Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
                    Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
-21:40:37.851     1>Target "_CheckForCompileOutputs: (TargetId:111)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+09:33:44.767     1>Target "_CheckForCompileOutputs: (TargetId:111)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
                    Set Property: _DocumentationFileProduced=false
                    Set Property: _DebugSymbolsProduced=false
-21:40:37.851     1>Done building target "_CheckForCompileOutputs" in project "CleanEngine.vcxproj".: (TargetId:111)
+09:33:44.767     1>Done building target "_CheckForCompileOutputs" in project "CleanEngine.vcxproj".: (TargetId:111)
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-21:40:37.851     1>Target "CopyFilesToOutputDirectory: (TargetId:112)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForRun" depends on it):
+09:33:44.767     1>Target "CopyFilesToOutputDirectory: (TargetId:112)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "PrepareForRun" depends on it):
                    Set Property: CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Set Property: ErrorIfLinkFailsForCopyFilesToOutputDirectory=false
@@ -5515,23 +5488,23 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
                    Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
-21:40:37.851     1>Done building target "CopyFilesToOutputDirectory" in project "CleanEngine.vcxproj".: (TargetId:112)
-21:40:37.851     1>Target "PrepareForRun: (TargetId:113)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
-21:40:37.851     1>Done building target "PrepareForRun" in project "CleanEngine.vcxproj".: (TargetId:113)
+09:33:44.767     1>Done building target "CopyFilesToOutputDirectory" in project "CleanEngine.vcxproj".: (TargetId:112)
+09:33:44.767     1>Target "PrepareForRun: (TargetId:113)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.767     1>Done building target "PrepareForRun" in project "CleanEngine.vcxproj".: (TargetId:113)
                    Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
-21:40:37.851     1>Target "PostBuildEvent: (TargetId:114)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
+09:33:44.767     1>Target "PostBuildEvent: (TargetId:114)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "_BuildLinkAction" depends on it):
                    Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
                    Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
-21:40:37.851     1>Done building target "PostBuildEvent" in project "CleanEngine.vcxproj".: (TargetId:114)
-21:40:37.851     1>Target "_BuildLinkAction: (TargetId:115)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildLink" depends on it):
-21:40:37.851     1>Done building target "_BuildLinkAction" in project "CleanEngine.vcxproj".: (TargetId:115)
-21:40:37.851     1>Target "BuildLink: (TargetId:116)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
-21:40:37.851     1>Done building target "BuildLink" in project "CleanEngine.vcxproj".: (TargetId:116)
-21:40:37.851     1>Target "AfterBuild: (TargetId:117)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
-21:40:37.851     1>Done building target "AfterBuild" in project "CleanEngine.vcxproj".: (TargetId:117)
+09:33:44.767     1>Done building target "PostBuildEvent" in project "CleanEngine.vcxproj".: (TargetId:114)
+09:33:44.767     1>Target "_BuildLinkAction: (TargetId:115)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "BuildLink" depends on it):
+09:33:44.767     1>Done building target "_BuildLinkAction" in project "CleanEngine.vcxproj".: (TargetId:115)
+09:33:44.767     1>Target "BuildLink: (TargetId:116)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:44.767     1>Done building target "BuildLink" in project "CleanEngine.vcxproj".: (TargetId:116)
+09:33:44.767     1>Target "AfterBuild: (TargetId:117)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:44.767     1>Done building target "AfterBuild" in project "CleanEngine.vcxproj".: (TargetId:117)
                    Target "_CheckForCompileOutputs" skipped. Previously built successfully.
                    Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-21:40:37.851     1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:118)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "IncrementalClean" depends on it):
+09:33:44.767     1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:118)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "IncrementalClean" depends on it):
                    Task "ReadLinesFromFile" (TaskId:47)
                      Task Parameter:File=x64\Debug\CleanEngine.vcxproj.FileListAbsolute.txt (TaskId:47)
                    Done executing task "ReadLinesFromFile". (TaskId:47)
@@ -5557,8 +5530,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "RemoveDuplicates" (TaskId:52)
                    Done executing task "RemoveDuplicates". (TaskId:52)
-21:40:37.852     1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "CleanEngine.vcxproj".: (TargetId:118)
-21:40:37.852     1>Target "IncrementalClean: (TargetId:119)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:44.770     1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "CleanEngine.vcxproj".: (TargetId:118)
+09:33:44.770     1>Target "IncrementalClean: (TargetId:119)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
                    Task "FindUnderPath" (TaskId:53)
                      Task Parameter:Path=C:\Dev\clean-engine\x64\Debug\ (TaskId:53)
                      Comparison path is "C:\Dev\clean-engine\x64\Debug\". (TaskId:53)
@@ -5574,8 +5547,8 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                    Task "RemoveDuplicates" (TaskId:56)
                    Done executing task "RemoveDuplicates". (TaskId:56)
                    Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as (''!='').
-21:40:37.853     1>Done building target "IncrementalClean" in project "CleanEngine.vcxproj".: (TargetId:119)
-21:40:37.853     1>Target "FinalizeBuildStatus: (TargetId:120)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
+09:33:44.771     1>Done building target "IncrementalClean" in project "CleanEngine.vcxproj".: (TargetId:119)
+09:33:44.771     1>Target "FinalizeBuildStatus: (TargetId:120)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (target "Build" depends on it):
                    Task "Delete" (TaskId:57)
                      Task Parameter:Files=x64\Debug\Clean-Engine.tlog\unsuccessfulbuild (TaskId:57)
                      Deleting file "x64\Debug\Clean-Engine.tlog\unsuccessfulbuild". (TaskId:57)
@@ -5584,24 +5557,24 @@ Logging verbosity is set to: Diagnostic.21:40:36.336     1>Project "C:\Dev\clean
                      Task Parameter:Files=x64\Debug\Clean-Engine.tlog\Clean-Engine.lastbuildstate (TaskId:58)
                      Touching "x64\Debug\Clean-Engine.tlog\Clean-Engine.lastbuildstate". (TaskId:58)
                    Done executing task "Touch". (TaskId:58)
-21:40:37.854     1>Done building target "FinalizeBuildStatus" in project "CleanEngine.vcxproj".: (TargetId:120)
+09:33:44.772     1>Done building target "FinalizeBuildStatus" in project "CleanEngine.vcxproj".: (TargetId:120)
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
                    Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
-21:40:37.854     1>Target "Build: (TargetId:121)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (entry point):
-21:40:37.854     1>Done building target "Build" in project "CleanEngine.vcxproj".: (TargetId:121)
-21:40:37.856     1>Done Building Project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (Build target(s)).
+09:33:44.772     1>Target "Build: (TargetId:121)" in file "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets" from project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (entry point):
+09:33:44.772     1>Done building target "Build" in project "CleanEngine.vcxproj".: (TargetId:121)
+09:33:44.772     1>Done Building Project "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (Build target(s)).
 
 Project Evaluation Performance Summary:
-      102 ms  C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj   1 calls
+      115 ms  C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj   1 calls
 
 Project Performance Summary:
-     1520 ms  C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj   1 calls
-               1520 ms  Build                                      1 calls
+     1129 ms  C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj   1 calls
+               1129 ms  Build                                      1 calls
 
 Target Performance Summary:
         0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _Link                                      1 calls
         0 ms  AfterLink                                  1 calls
-        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
         0 ms  ComputeLinkSwitches                        1 calls
         0 ms  PreLinkEvent                               1 calls
         0 ms  PrepareResourceNames                       1 calls
@@ -5609,11 +5582,10 @@ Target Performance Summary:
         0 ms  ComputeManifestInputsTargets               1 calls
         0 ms  ComputeLinkInputsFromProject               1 calls
         0 ms  ComputeCLOutputs                           1 calls
+        0 ms  _ALink                                     1 calls
         0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
-        0 ms  ComputeRCGeneratedLinkInputs               1 calls
         0 ms  ComputeRCOutputs                           1 calls
         0 ms  BeforeLink                                 1 calls
-        0 ms  ComputeLegacyManifestEmbedding             1 calls
         0 ms  BuildLinkTraverse                          1 calls
         0 ms  BuildCompile                               1 calls
         0 ms  _BuildCompileAction                        1 calls
@@ -5621,127 +5593,128 @@ Target Performance Summary:
         0 ms  AfterResourceCompile                       1 calls
         0 ms  BeforeResourceCompile                      1 calls
         0 ms  _ClCompile                                 1 calls
-        0 ms  _Link                                      1 calls
-        0 ms  _ALink                                     1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
         0 ms  _Manifest                                  1 calls
+        0 ms  RegisterOutput                             1 calls
         0 ms  ResolvedXDCMake                            1 calls
         0 ms  AfterBuild                                 1 calls
         0 ms  BuildLink                                  1 calls
         0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
         0 ms  PrepareForRun                              1 calls
-        0 ms  CopyFilesToOutputDirectory                 1 calls
         0 ms  _CheckForCompileOutputs                    1 calls
         0 ms  _CopySourceItemsToOutputDirectory          1 calls
-        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
         0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
         0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
-        0 ms  AfterClCompile                             1 calls
         0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
         0 ms  CreateSatelliteAssemblies                  1 calls
         0 ms  _GenerateSatelliteAssemblyInputs           1 calls
-        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  ContentFilesProjectOutputGroup             1 calls
         0 ms  SatelliteDllsProjectOutputGroup            1 calls
         0 ms  BuiltProjectOutputGroup                    1 calls
         0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
         0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
         0 ms  _XdcMake                                   1 calls
-        0 ms  MakeDirsForXdcMake                         1 calls
         0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
-        0 ms  _Appverifier                               1 calls
+        0 ms  AfterClCompile                             1 calls
         0 ms  SelectClCompile                            1 calls
         0 ms  Build                                      1 calls
-        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
         0 ms  ComputeCustomBuildOutput                   1 calls
         0 ms  SelectCustomBuild                          1 calls
-        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
         0 ms  _SelectedFiles                             1 calls
-        0 ms  PreBuildEvent                              1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  BeforeResolveReferences                    1 calls
         0 ms  BeforeBuildGenerateSources                 1 calls
-        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  GetResolvedWinMD                           1 calls
         0 ms  ResolveReferences                          1 calls
         0 ms  AfterResolveReferences                     1 calls
-        0 ms  ResolveAssemblyReferences                  1 calls
         0 ms  ExpandSDKReferences                        1 calls
         0 ms  ResolveSDKReferences                       1 calls
-        0 ms  _PrepareForReferenceResolution             1 calls
-        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
-        0 ms  _CheckWindowsSDKInstalled                  1 calls
-        0 ms  GetResolvedWinMD                           1 calls
-        0 ms  BeforeResolveReferences                    1 calls
-        0 ms  GetFrameworkPaths                          1 calls
-        0 ms  CopyFileToFolders                          1 calls
-        0 ms  ResolveProjectReferences                   1 calls
-        0 ms  BuildCompileTraverse                       1 calls
-        0 ms  _Xsd                                       1 calls
-        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  PrepareProjectReferences                   1 calls
         0 ms  GetReferencedVCProjectsInfo                1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
         0 ms  BuildGenerateSources                       1 calls
         0 ms  _BuildGenerateSourcesAction                1 calls
         0 ms  AfterBuildGenerateSourcesEvent             1 calls
-        0 ms  AfterBuildGenerateSources                  1 calls
-        0 ms  _Midl                                      1 calls
-        0 ms  AfterMidl                                  1 calls
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
-        0 ms  BeforeClCompile                            1 calls
-        0 ms  ComputeCLInputPDBName                      1 calls
-        0 ms  ContentFilesProjectOutputGroup             1 calls
-        0 ms  PrepareProjectReferences                   1 calls
-        0 ms  ComputeCLGeneratedLinkInputs               1 calls
-        0 ms  WarnCompileDuplicatedFilename              1 calls
-        0 ms  ComputeReferenceCLInput                    1 calls
-        0 ms  AssignTargetPaths                          1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
         0 ms  MakeDirsForCl                              1 calls
-        0 ms  DoLinkOutputFilesMatch                     1 calls
-        0 ms  GetReferenceAssemblyPaths                  1 calls
-        0 ms  MakeDirsForBscMake                         1 calls
-        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        1 ms  ResolveProjectReferences                   1 calls
         1 ms  MakeDirsForLink                            1 calls
+        1 ms  ComputeCLGeneratedLinkInputs               1 calls
+        1 ms  ResolveAssemblyReferences                  1 calls
+        1 ms  GetReferenceAssemblyPaths                  1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  ComputeLegacyManifestEmbedding             1 calls
         1 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        1 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
         1 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        1 ms  MakeDirsForXdcMake                         1 calls
         1 ms  MakeDirsForResourceCompile                 1 calls
-        1 ms  PostBuildEvent                             1 calls
-        1 ms  SplitResourcesByCulture                    1 calls
-        1 ms  IncrementalClean                           1 calls
-        1 ms  RegisterOutput                             1 calls
         1 ms  _PrepareForBuild                           1 calls
-        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
-        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  CopyFileToFolders                          1 calls
         1 ms  AssignProjectConfiguration                 1 calls
-        1 ms  GetCopyToOutputDirectoryItems              1 calls
-        2 ms  FixupCLCompileOptions                      1 calls
-        4 ms  InitializeBuildStatus                      1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  WarnCompileDuplicatedFilename              1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  IncrementalClean                           1 calls
+        2 ms  GetCopyToOutputDirectoryItems              1 calls
+        2 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        3 ms  InitializeBuildStatus                      1 calls
         5 ms  SetTelemetryEnvironmentVariables           1 calls
-        7 ms  CustomBuild                                1 calls
-        8 ms  PrepareForBuild                            1 calls
+        6 ms  CustomBuild                                1 calls
+        7 ms  PrepareForBuild                            1 calls
         8 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
-        8 ms  SetBuildDefaultEnvironmentVariables        1 calls
-       15 ms  CreateRecipeFile                           1 calls
-       44 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
-      183 ms  Link                                       1 calls
-     1216 ms  ClCompile                                  1 calls
+       12 ms  SetBuildDefaultEnvironmentVariables        1 calls
+       18 ms  CreateRecipeFile                           1 calls
+       36 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+      147 ms  Link                                       1 calls
+      864 ms  ClCompile                                  1 calls
 
 Task Performance Summary:
         0 ms  MSBuild                                    1 calls
-        0 ms  AssignCulture                              1 calls
-        0 ms  AssignTargetPath                           7 calls
-        0 ms  RemoveDuplicates                           2 calls
-        0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  FindUnderPath                              5 calls
         0 ms  ConvertToAbsolutePath                      1 calls
-        1 ms  Delete                                     2 calls
-        1 ms  Message                                    3 calls
-        1 ms  CallTarget                                 2 calls
-        1 ms  WriteLinesToFile                           1 calls
-        1 ms  ReadLinesFromFile                          2 calls
-        1 ms  CheckVCToolsetVersion                      1 calls
-        2 ms  VCMessage                                  1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  RemoveDuplicates                           2 calls
+        0 ms  Delete                                     2 calls
+        0 ms  WriteLinesToFile                           1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  AssignTargetPath                           7 calls
+        1 ms  FindUnderPath                              5 calls
+        1 ms  VCMessage                                  1 calls
         2 ms  Touch                                      2 calls
-        3 ms  MakeDir                                   10 calls
+        2 ms  CheckVCToolsetVersion                      1 calls
+        2 ms  Message                                    3 calls
+        2 ms  ReadLinesFromFile                          2 calls
+        2 ms  CallTarget                                 2 calls
+        2 ms  MakeDir                                   10 calls
         7 ms  GetOutOfDateItems                          3 calls
-       10 ms  SetEnv                                     9 calls
-       15 ms  GenerateDesktopDeployRecipe                1 calls
-      182 ms  Link                                       1 calls
-     1214 ms  CL                                         1 calls
+       14 ms  SetEnv                                     9 calls
+       17 ms  GenerateDesktopDeployRecipe                1 calls
+      145 ms  Link                                       1 calls
+      863 ms  CL                                         1 calls
 
 Build succeeded.
 
@@ -5749,17 +5722,7 @@ Build succeeded.
                    (PrepareForBuild target) -> 
                      C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (xpert-engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
 
-
-                   "C:\Dev\clean-engine\CleanEngine\CleanEngine.vcxproj" (Build target) (1) ->
-                   (ClCompile target) -> 
-                     C:\Dev\clean-engine\CleanEngine\TransformComponent.h(37,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-                     C:\Dev\clean-engine\CleanEngine\TransformComponent.h(38,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-                     C:\Dev\clean-engine\CleanEngine\ECS.h(73,33): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-                     C:\Dev\clean-engine\CleanEngine\TransformComponent.h(37,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-                     C:\Dev\clean-engine\CleanEngine\TransformComponent.h(38,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-                     C:\Dev\clean-engine\CleanEngine\ECS.h(73,33): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-
-    7 Warning(s)
+    1 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.52
+Time Elapsed 00:00:01.12

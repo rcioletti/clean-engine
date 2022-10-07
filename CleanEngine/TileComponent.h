@@ -30,10 +30,10 @@ public:
 			path = "assets/water.png";
 			break;
 		case 1:
-			path = "assets/dirt.png";
+			path = "assets/grass.png";
 			break;
 		case 2:
-			path = "assets/grass.png";
+			path = "assets/dirt.png";
 			break;
 		default:
 			break;
