@@ -48,6 +48,7 @@
     <Image Include="assets\grass.png" />
     <Image Include="assets\player.png" />
     <Image Include="assets\player2.png" />
+    <Image Include="assets\player_idle.png" />
     <Image Include="assets\water.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

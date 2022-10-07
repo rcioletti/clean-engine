@@ -58,7 +58,7 @@ void Game::init(const char * title, int width, int height, bool fullscreen)
 	MapManager::LoadMap("assets/clean.map", 16, 16);
 
 	player.addComponent<TransformComponent>(0,0);
-	player.addComponent<SpriteComponent>("assets/player.png");
+	player.addComponent<SpriteComponent>("assets/player_idle.png", 4, 200);
 	player.addComponent<KeyboardController>();
 	player.addComponent<CollisionComponent>("player");
 	player.addGroup(groupPlayers);
