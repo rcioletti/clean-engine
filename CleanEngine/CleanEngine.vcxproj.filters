@@ -66,6 +66,9 @@
     <ClInclude Include="TileComponent.h">
       <Filter>src\ECS</Filter>
     </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>src\ECS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -98,6 +101,9 @@
       <Filter>src\assets</Filter>
     </Image>
     <Image Include="assets\player_idle.png">
+      <Filter>src\assets</Filter>
+    </Image>
+    <Image Include="assets\player_anims.png">
       <Filter>src\assets</Filter>
     </Image>
   </ItemGroup>
