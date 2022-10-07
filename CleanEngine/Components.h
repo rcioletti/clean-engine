@@ -4,3 +4,4 @@
 #include "SpriteComponent.h"
 #include "KeyboardController.h"
 #include "CollisionComponent.h"
+#include "TileComponent.h"

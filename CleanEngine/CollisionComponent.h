@@ -8,7 +8,7 @@ class CollisionComponent : public Component
 {
 public:
 
-	SDL_Rect colllision;
+	SDL_Rect collision;
 	std::string tag;
 
 	TransformComponent* transform;
@@ -25,13 +25,15 @@ public:
 			entity->hasComponent<TransformComponent>();
 		}
 		transform = &entity->getComponent<TransformComponent>();
+
+		Game::collisions.push_back(this);
 	}
 
 	void update() override
 	{
-		colllision.x = static_cast<int>(transform->position.x);
-		colllision.y = static_cast<int>(transform->position.y);
-		colllision.w = transform->width * transform->scale;
-		colllision.h = transform->height * transform->scale;
+		collision.x = static_cast<int>(transform->position.x);
+		collision.y = static_cast<int>(transform->position.y);
+		collision.w = transform->width * transform->scale;
+		collision.h = transform->height * transform->scale;
 	}
 };

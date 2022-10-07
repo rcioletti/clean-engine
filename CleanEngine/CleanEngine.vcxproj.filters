@@ -60,6 +60,9 @@
     <ClInclude Include="Collision.h">
       <Filter>src\engine</Filter>
     </ClInclude>
+    <ClInclude Include="TileComponent.h">
+      <Filter>src\ECS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

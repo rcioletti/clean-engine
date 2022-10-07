@@ -36,6 +36,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="KeyboardController.h" />
     <ClInclude Include="MapManager.h" />
+    <ClInclude Include="TileComponent.h" />
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="SpriteComponent.h" />
     <ClInclude Include="TextureManager.h" />

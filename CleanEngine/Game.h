@@ -3,6 +3,9 @@
 #undef main
 #include "SDL_image.h"
 #include <iostream>
+#include <vector>
+
+class CollisionComponent;
 
 class Game
 {
@@ -18,6 +21,7 @@ public:
 
 	static SDL_Renderer* renderer;
 	static SDL_Event event;
+	static std::vector<CollisionComponent*> collisions;
 
 	void handleEvents();
 	bool running() { return isRunning; };
