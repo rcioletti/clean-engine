@@ -22,6 +22,9 @@
     <ClCompile Include="Collision.cpp">
       <Filter>src\engine</Filter>
     </ClCompile>
+    <ClCompile Include="ECS.cpp">
+      <Filter>src\ECS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
