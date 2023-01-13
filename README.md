@@ -1,9 +1,9 @@
-Clean Engine: 3D Game Engine
+Clean Engine: 2D Game Engine
 ==========
 
 _Note:_ Their will be a compact website soon containing all the info below along with an embedding guide, downloads, tutorials and all the other resources you need to get started with the CleanEngine.
 
-Clean Engine is a Game Engine to develop 3D Games fast and easy. It is written in C++. The goal is to allow very fast development, which is often needed in prototyping. Thanks to the many embedded opensource libraries we can provide you with all the features you might need. Keep in mind that we aim for a miniamlistic and compact game engine.
+Clean Engine is a Game Engine to develop 2D Games fast and easy. It is written in C++. The goal is to allow very fast development, which is often needed in prototyping. Thanks to the many embedded opensource libraries we can provide you with all the features you might need. Keep in mind that we aim for a miniamlistic and compact game engine.
 
 
 ## Features
