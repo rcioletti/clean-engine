@@ -8,11 +8,10 @@ Clean Engine is a Game Engine to develop 3D Games fast and easy. It is written i
 
 ## Features
 
-  * Deploy games on Windows, PS4 and Xbox ONE
-  * Develop quick prototypes or advanced 3D Games
+  * Deploy games on Windows
+  * Develop quick prototypes or advanced 2D Games
   * A component system to boost code reusability and improve code organisation
-  * Crossplatform input support via [SDL2](http://www.libsdl.org/)
-  * Support for several Graphic APIS, giving you te freedom to choose 
+  * Crossplatform input support via [SDL2](http://www.libsdl.org/) 
   * Better code organisation via scenes and objects
   * Develop games in C++
   * Multithreading support to keep your games performant
