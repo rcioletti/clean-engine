@@ -15,8 +15,6 @@ Clean Engine is a Game Engine to develop 2D Games fast and easy. It is written i
   * Better code organisation via scenes and objects
   * Develop games in C++
   * Multithreading support to keep your games performant
-  * Garbage Collection system to manage your memory
-  * Boost integration for containers and other small things
   * Application: Generate an empty game project or start from a template
 
 ## Project Setup
